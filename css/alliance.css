@@ -384,6 +384,8 @@ word-spacing: 1px;
 .produce-photo {
   width: 600px;
   height: 750px;
+  margin-top: -82px;
+  margin-left: 81px;
   object-fit: cover;
 }
 .research-seporator {
@@ -1036,8 +1038,11 @@ margin-top: 4px;
 .section-cta {
 position: relative;
 padding-top:0;
-margin-top:269px;
+margin-top:215px;
 padding-bottom: 102px;
+}
+.about-cta {
+  margin-top: 228px;
 }
 .section-about {
   margin-top: 225px;
