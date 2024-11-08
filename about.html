@@ -107,7 +107,7 @@
         <a href="/about.html" class="header-nav-link">О компании</a>
       </li>
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Контрактное производство</a>
+        <a href="/contract-production.html" class="header-nav-link">Контрактное производство</a>
       </li>
       <li class="header-nav-item">
         <a href="#" class="header-nav-link">Собственные торговые марки</a>
@@ -472,11 +472,11 @@
   </div>
  </section>
  <!-- /.section clients -->
-  <section class="cta ">
-    <div class="bg-grey section-cta section-about">
+ <section class="cta">
+    <div class="bg-grey section-cta">
       <img src="img/cta-bg.png" alt="cta" class="cta-image">
       <div class="cta-form-wrapper container">
-        <form action="#" class="cta-form">
+        <form action="handler.php" method="POST" class="cta-form">
           <h2  class="cta-form-title">Хотите сотрудничать?</h2>
           <p class="cta-form-text">
             Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
@@ -486,6 +486,7 @@
                 id="user-name" 
                 type="text" 
                 class="input"
+                name="username"
                 placeholder=" ">
                 <label class="input-group-label" for="user-name">Имя</label>
               </div>
@@ -493,7 +494,9 @@
               <div class="input-group">
                 <input 
                 id="user-phone" 
-                type="tel" class="input" 
+                type="tel"
+                name="userphone"
+                class="input" 
                 placeholder=" ">
                 <label class="input-group-label" for="user-phone">Номер телефона</label>
               </div>
@@ -526,8 +529,8 @@
           <svg class="logo-svg footer-logo ">
             <use href="img/sprite.svg#logo"></use>
            </svg>
-           <a href="tel:+74996861014" class="footer-phone">
-            +7 (499) 686-10-14
+           <a href="tel:+79996861014" class="footer-phone">
+            +7 (999) 686-10-14
           </a>
           <div class="footer-info">
             <svg class="footer-map-icon"  width="24" height="24">
