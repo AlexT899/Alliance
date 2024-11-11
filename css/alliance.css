@@ -207,7 +207,7 @@ left: auto;
 
 .about-link-main {
   text-decoration: none;
-  margin-right: 31px;
+  margin-right: 10px;
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
@@ -303,7 +303,7 @@ word-spacing: 1px;
 }
 .section-produce {
   margin-top: 150px;
- margin-bottom: 150px;
+  margin-bottom: 150px;
 }
 .produce-seporator {
   background: #5C8EE6;
@@ -1524,6 +1524,176 @@ word-spacing: .2992px;
 .ct-section {
   margin-top: 269px;
 }
+.product-link-company {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #828A99;
+  text-decoration: none;
+}
+.defis {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-decoration: none;
+  color: #828A99;
+}
+.avtohim-link-company {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #292D33;
+  text-decoration: none;
+}
+.avtohim-image {
+  margin-right: 1px;
+}
+.avtohim {
+  min-height: 41.25rem;
+  position: relative;
+}
+.avtohim-content {
+  max-width: 45rem;
+}
+.avtohim-content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.avtohim-image {
+  margin-right: 120px;
+}
+.avtohim-section-title {
+  font-family: "BebasNeueBook", sans-serif;
+  font-size: 61px;
+  line-height: 120%;
+  margin: -6px 9px;
+}
+.avtohim-text, .avtohim-text2{
+font-size: 1rem;
+font-weight: 400;
+line-height: 162%;
+color: #828A99;
+margin-top: 30px;
+margin-left: 9px;
+}
+.avtohim-text2 {
+  margin-top: 20px;
+  margin-left: 9px;
+}
+.section-product {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.product-seporator {
+  background: #5C8EE6;
+  width: 9.375rem;
+  height: .125rem;
+  margin-bottom: 30px;
+  margin-top: 183px;
+  margin-left: 8px;
+}
+.product-wrapper {
+  display: flex;
+  gap: 50px;
+}
+.product-content {
+  flex-basis: 50%;
+}
+.product-section-title {
+  font-family: "BebasNeueBook", sans-serif;
+  font-size: 61px;
+  line-height: 120%;
+  margin: -6px 9px;
+}
+.product-text{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 162%;
+  color: #828A99;
+  margin-top: 31px;
+  margin-left: 9px;
+  }
+.product-list {
+  list-style: none;
+  padding: 0;
+  columns: 2 auto;
+  margin-top: -3px;
+  margin-left: 10px;
+}
+.product-list-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #292D33;
+  padding-top: 16px;
+}
+.product-items2 {
+  margin-top: 3px;
+  margin-left: -1px;
+}
+.product-items3 {
+  margin-top: 0px;
+  word-spacing:2px;
+}
+.product-items5 {
+  margin-top: 3px;
+  margin-left: -4px;
+}
+.product-items6 {
+  margin-top: 3px;
+  margin-left: -4px;
+}
+.product-items7 {
+  margin-top: 3px;
+  margin-left: -4px;
+}
+.product-items8 {
+  margin-top: 3px;
+  margin-left: -4px;
+}
+.produce-icon3 {
+  position: absolute;
+  margin-top: -7px;
+  margin-left: -49px;
+}
+.product-avtohim-photo {
+  position: absolute;
+  width: 44%;
+  margin-top: -550px;
+ right: 0;
+}
+.section-types {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.avtohim-types-text{
+  width: 840px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 162%;
+  color: #828A99;
+  }
+ .types-list {
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  columns:4 auto;
+ }
+ .type-list-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #292D33;
+  padding: 10px;
+}
 @media (hover: hover) {
   .navbar-button:hover {
     background: #5F92EC;
@@ -1683,6 +1853,23 @@ word-spacing: .2992px;
   font-size: 12px;
   margin-right: 100px;
 }
+.product-avtohim-photo {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+}
+.product-wrapper {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.section-produce {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.product-seporator {
+  margin-top: 60px;
+}
 }
 @media (max-width:1200px) {
   .container {
@@ -1790,15 +1977,44 @@ word-spacing: .2992px;
   line-height: 120%;
   margin: -6px -110px;
 }
+.avtohim-image {
+  position: relative;
+  width: 100%;
+  margin-right:30px ;
+  left: 0;
+  object-fit: cover;
+}
+.avtohim-section-title {
+  font-size: 27px;
+}
+.product-section-title {
+  font-size: 51px;
+}
 }
 @media (max-width:992px) {
   html {
     font-size: 12px;
   }
+  .avtohim-content-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .avtohim-image {
+    display: flex;
+    width: 70%;
+    object-fit: cover;
+    margin-left: 40px;
+  }
   .footer-menu-wrapper:last-child {
     margin-top: 12px;
     margin-left: 20px;
   }
+  .contract-title {
+    font-size: 70px; 
+   }
   .container {
     max-width: 60rem;
   }
@@ -2083,6 +2299,9 @@ margin-top:15px;
 .research-cards {
   flex-direction: column;
 }
+.product-section-title {
+  font-size: 39px;
+}
 }
 @media (max-width:852px) {
   .produce-text-content {
@@ -2094,12 +2313,30 @@ margin-top:15px;
     width: 345px;
     height: 430px;
   }
-  
+  .types-list {
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    columns: 1 auto;
+  }
+  .avtohim-types-text {
+    width: 100%;
+}
 }
 @media (max-width: 768px) {
   .container {
     max-width: 40rem;
   }
+  .s-production {
+    margin-top: 68px;
+    margin-bottom: 70px;
+}
+.seo-text {
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-bottom: 150px;
+}
   .header-title {
     font-size: 46px;
     margin-left: -5px;
@@ -2342,10 +2579,36 @@ margin-top:15px;
   margin-right: 10px;
   margin-top: -5px;
 }
+.contract-title {
+  font-size: 65px; 
+ }
+ .avtohim-title {
+  font-size: 61px;
+ }
+ .section-avtohim {
+  margin-top: 40px;
+ }
+ .product-list {
+  columns: 1;
+ }
+ .product-text {
+  width: 300px;
+ }
 }
 @media (max-width: 576px) {
   .container {
     max-width: 90%;
+  }
+  .avtohim-types-text {
+    width: 100%;
+   }
+   .avtohim-title {
+    font-size: 51px;
+   }
+  .product-avtohim-photo {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
   }
   .header-content {
     padding-top: 4rem;
@@ -2476,6 +2739,15 @@ margin-top:15px;
   .button-prev {
     margin-top: 0px;
     margin-right: -8px;
+  }
+  .seo-text {
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 13px;
+    margin-bottom: 140px;
+  }
+  .seo-header {
+    margin-top: -90px;
   }
   .button-next {
     margin-top: 0px;
@@ -2958,6 +3230,31 @@ margin-top: 0;
   margin-top: -3px;
   margin-left: 41px;
 }
+.s-production {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.contract-content {
+  padding-top: 7.37rem;
+}
+.contract-title {
+  font-size: 60px; 
+ }
+ .avtohim-types-text {
+  width: 100%;
+ }
+ .types-list {
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  columns: 1 auto;
+}
+.avtohim-title {
+  font-size: 42px;
+}
+.header-about {
+  height: 280px;
+}
 }
 @media (max-width: 375px) {
   .header-title {
@@ -3098,7 +3395,7 @@ margin-top: 0;
   height: 574px;
 }
 .cta-form-title {
-  margin-left: -405px;
+  margin-left: -330px;
   font-size: 36px;
   margin-top: 39px;
 }
@@ -3491,5 +3788,71 @@ margin-top: 0;
 .section-about {
   margin-top: 161px;
   height: 574px;
+}
+.contract-link {
+  margin-top: 0;
+}
+.seo-text {
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+.types-list{
+  columns: 1;
+  width: 350px;
+}
+.avtohim-types-text {
+  width: 350px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 162%;
+  color: #828A99;
+}
+.avtohim-title {
+  font-size: 35px;
+}
+.about-link {
+ flex-direction: column;
+}
+.product-avtohim-photo {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+}
+.product-list {
+  columns: 1;
+}
+.header-about {
+  margin-bottom: 470px;
+}
+.avtohim-image {
+  position: relative;
+  width: 320px;
+  height: 430px;
+  margin-left: 10px;
+  margin-top: -465px;
+}
+.avtohim-content {
+  max-width: 45rem;
+  margin-top: 30px;
+}
+.avtohim-section-title {
+  font-family: "BebasNeueBook", sans-serif;
+  font-size: 30px;
+  line-height: 120%;
+  margin: -6px 9px;
+}
+.product-seporator {
+  margin-top: 20px;
+}
+.product-content {
+  flex-basis: 100%;
+}
+.product-section-title {
+  font-family: "BebasNeueBook", sans-serif;
+  font-size: 35px;
+  line-height: 120%;
+  margin: -6px 9px;
 }
 }
