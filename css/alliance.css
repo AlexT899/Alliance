@@ -1694,6 +1694,11 @@ margin-left: 9px;
   color: #292D33;
   padding: 10px;
 }
+.bg-production {
+  position: absolute;
+  top: 125px;
+  right: 0;
+}
 @media (hover: hover) {
   .navbar-button:hover {
     background: #5F92EC;
