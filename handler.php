@@ -5,7 +5,21 @@ $user_phone = htmlspecialchars($_POST["userphone"]);
 $token = "8014620879:AAGDkn5AyhqN3IdVHzhhhoMtgFqaRUuc04w";
 $chat_id = "-4575687290";
 
-fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&text={$user_name}");
+$formData = array(
+  "Клиент: " => $user_name,
+  "Телефон: " => $user_phone
+);
 
+foreach($formData as $key => $value) {
+  $text .= $key . "<b>". urlencode($value) ."</b>" ."%0A";
+}
+
+$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&text={$text}&parse_mode=html", "r");
+
+if ($sendToTelegram) {
+  echo "Success";
+} else {
+  echo "Error";
+}
 echo "Привет, " . $user_name . "<br>";
 echo "Ваш Телефон: <b> " . $user_phone . "</b>";
