@@ -25,7 +25,7 @@
                 id="user-phone" 
                 type="tel"
                 name="userphone"
-                class="input" 
+                class="input phone-mask" 
                 placeholder=" "
                 maxlength="30"
                 required
@@ -176,10 +176,10 @@
       </div>
     </footer>
     <!-- /.footer -->
-     <div class="modal">
+     <div class="modal" id="feedback-modal">
       <div class="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="#" class="modal-close" data-toggle="modal">
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
           <svg class="close-icon"  width="30" height="30">
             <use href="img/sprite.svg#close"></use>
            </svg>
@@ -195,7 +195,9 @@
               type="text" 
               class="input modal-input"
               name="username"
-              placeholder=" ">
+              placeholder=" "
+              required
+              >
               <label 
               class="input-group-label modal-input-label"
                for="modal-user-name"
@@ -206,9 +208,11 @@
               <input 
               id="modal-user-phone" 
               type="tel" 
-              class="input modal-input" 
+              class="input modal-input phone-mask" 
               name="userphone"
-              placeholder=" ">
+              placeholder=" "
+              required
+              >
               <label 
               class="input-group-label modal-input-label" 
               for="modal-user-phone"
@@ -232,8 +236,23 @@
         </form>
       </div>
      </div>
+     <div class="modal" id="alert-modal">
+      <div class="modal-dialog">
+        <img src="img/thanks_illu.png" alt="" class="alert-image">
+        <h2 class="modal-title">Спасибо за заявку!</h2>
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
+          <svg class="close-icon"  width="30" height="30">
+            <use href="img/sprite.svg#close"></use>
+           </svg>
+        </a>
+        <p class="modal-text">
+        Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+        </p>
+        <button type="submit" class="modal-button modal-form-button thanks-button">Вернуться на главную</button>
+      </div>
+     </div>
 <script src="js/swiper-bundle.min.js"></script>
-<script src="js/alliance.js"></script>
 <script src="js/just-validate.production.min.js"></script>
+<script src="js/alliance.js"></script>
 </body>
 </html>
