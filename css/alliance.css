@@ -1115,6 +1115,9 @@ word-spacing: .2992px;
   background-color: inherit;
   padding: 0 .625rem;
 }
+.input.is-invalid {
+  border: 1px solid red;
+}
 .cta-form-footer {
   gap: 1.875rem;
   align-items: center;
