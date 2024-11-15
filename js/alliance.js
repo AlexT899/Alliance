@@ -150,6 +150,7 @@ const swiperBlog = new Swiper(".blog-slider", {
     },
   },
 });
+
 const swiperResearch = new Swiper(".research-slider", {
   speed: 400,
   slidesPerView: 1,

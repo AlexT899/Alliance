@@ -110,13 +110,13 @@ rel="stylesheet">
         <a href="/contract-production.php" class="header-nav-link">Контрактное производство</a>
       </li>
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Собственные торговые марки</a>
+        <a href="/trademarks.php" class="header-nav-link">Собственные торговые марки</a>
       </li>
       <li class="header-nav-item">
         <a href="#" class="header-nav-link">Новости</a>
       </li>
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Контакты</a>
+        <a href="contacts.php" class="header-nav-link">Контакты</a>
       </li>
     </ul>
     <div class="header-phone">
@@ -332,31 +332,7 @@ rel="stylesheet">
   <!-- /.container -->
 </div>
 <!-- /.section section-production -->
-<section class="section-trademark">
-  <div class="container">
-    <div class="trademark-seporator"></div><!-- /.trademark-seporator -->
-    <h2 class="trademark-section-title">собственные торговые марки</h2>
-    <h2 class="trademark-title">собственные марки</h2>
-    <div class="trademark-cards">
-      <div class="trademark-card">
-        <svg class="trademark-card-logo">
-          <use href="img/sprite.svg#AGTECH"></use>
-         </svg>
-        <h3 class="trademark-card-title ag-title">Автохимия AG-Tech</h3>
-        <p class="trademark-card-text ag-text">Для современного мира разбавленное изрядной долей эмпатии, рациональное мышление создаёт предпосылки для поставленных обществом задач.</p>
-      </div>
-      <div class="trademark-card">
-        <svg class="trademark-card-logo ap-logo">
-          <use  href="img/sprite.svg#AP"></use>
-         </svg>
-        <h3 class="trademark-card-title ap-title">Автохимия AP</h3>
-        <p class="trademark-card-text ap-text">Для современного мира разбавленное изрядной долей эмпатии, рациональное мышление создаёт предпосылки для поставленных обществом задач.</p>
-      </div>
-    </div>
-    <!-- /.trademark-cards -->
-  </div>
-  <!-- /.container -->
-</section>
+<?php $block_title = "собственные торговые марки"; include_once('./templates-parts/trademarks-blog.php')?>
 <section class="section founder">
   <img src="img/founder.jpg.jpg" alt="Founder" class="founder-photo">
   <div class="container">

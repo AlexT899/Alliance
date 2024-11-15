@@ -106,7 +106,7 @@
             <h2 class="footer-menu-title menu-title">Контрактное производство</h2>
             <ul class="footer-menu-list footer-menu-column-2">
               <li class="footer-menu-item footer-list1">
-                <a href="#" class="footer-menu-link">Автомобильная химия</a>
+                <a href="/product-avtohim.php" class="footer-menu-link">Автомобильная химия</a>
               </li>
               <li class="footer-menu-item footer-list2">
                 <a href="#" class="footer-menu-link">Бытовая химия</a>
@@ -141,13 +141,13 @@
           <div class="footer-menu-wrapper wrapper">
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold">О компании</a>
+                <a href="/about.php" class="footer-menu-link footer-menu-link-bold">О компании</a>
               </li>
               <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link footer-menu-link-bold">Новости</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link footer-menu-link-bold">Контакты</a>
+                <a href="/contacts.php" class="footer-menu-link footer-menu-link-bold">Контакты</a>
               </li>
             </ul>
           </div>
@@ -237,18 +237,20 @@
       </div>
      </div>
      <div class="modal" id="alert-modal">
-      <div class="modal-dialog">
+      <div class="modal-dialog alert-dialog">
         <img src="img/thanks_illu.png" alt="" class="alert-image">
-        <h2 class="modal-title">Спасибо за заявку!</h2>
+        <h2 class="modal-title alert-title">Спасибо за заявку!</h2>
         <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
           <svg class="close-icon"  width="30" height="30">
             <use href="img/sprite.svg#close"></use>
            </svg>
         </a>
-        <p class="modal-text">
+        <p class="modal-text alert-text">
         Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
+        <a class="alert-link" href="/index.php">
         <button type="submit" class="modal-button modal-form-button thanks-button">Вернуться на главную</button>
+        </a>
       </div>
      </div>
 <script src="js/swiper-bundle.min.js"></script>

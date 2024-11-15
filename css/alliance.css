@@ -275,7 +275,7 @@ word-spacing: 1px;
  }
  .about-features {
   display: flex;
-  min-height: 10.5rem;
+  height: 10.5rem;
   padding: 0;
   margin-top: 104px;
   list-style: none;
@@ -404,7 +404,7 @@ word-spacing: 1px;
 }
 .research-buttons {
   margin-right: 222px;
-  margin-top: -5px;
+  margin-top: -375px;
 }
 .research-icon-prev {
   margin-left: 12px;
@@ -436,7 +436,7 @@ word-spacing: 1px;
   left: 7px;
   top: 5px;
   width: 100%;
-  height: 100%;
+  height: 50%;
   object-fit: cover;
   z-index: -2;
 }
@@ -828,6 +828,9 @@ margin-left: 9px;
   margin-top: 150px;
  margin-bottom: 150px;
 }
+.breadcrumbs-clients {
+  margin-top: 0;
+}
 .clients-seporator {
   background: #5C8EE6;
   width: 9.375rem;
@@ -1124,10 +1127,10 @@ word-spacing: .2992px;
   right: 10px;
   background-color: inherit;
   transform: translateY(-50%);
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 .cta-form-footer {
   gap: 1.875rem;
@@ -1431,7 +1434,7 @@ word-spacing: .2992px;
   margin-top: -3px;
   margin-bottom: 20px;
   margin-left: 3px;
-  letter-spacing: 0.2px;
+  letter-spacing: .2px;
 }
 .modal-text {
   font-style: normal;
@@ -1442,7 +1445,7 @@ word-spacing: .2992px;
   margin-bottom: 30px;
   margin-top: 26px;
   margin-left: 3px;
-  word-spacing: 0.2px;
+  word-spacing: .2px;
  
 }
 .modal-input-group {
@@ -1508,7 +1511,7 @@ word-spacing: .2992px;
   line-height: 140%;
   color: #5C8EE5;
   text-decoration: none;
-  letter-spacing: 0.3px;
+  letter-spacing: .2992px;
 }
 .seo-icon {
   position: absolute;
@@ -1651,7 +1654,7 @@ margin-left: 9px;
   font-weight: 400;
   line-height: 162%;
   color: #828A99;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
   }
  .types-list {
   width: 100%;
@@ -1673,7 +1676,7 @@ margin-left: 9px;
 .tp-1 {
   margin-top: -2px;
   margin-left: 35px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon1 {
   position: absolute;
@@ -1683,7 +1686,7 @@ margin-left: 9px;
 .tp-2 {
   margin-top: 1px;
   margin-left: 34px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon2 {
   position: absolute;
@@ -1693,7 +1696,7 @@ margin-left: 9px;
 .tp-3 {
   margin-top: 0px;
   margin-left: 34px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon3 {
   position: absolute;
@@ -1703,7 +1706,7 @@ margin-left: 9px;
 .tp-4 {
   margin-top: 0px;
   margin-left: 35px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon4 {
   position: absolute;
@@ -1713,7 +1716,7 @@ margin-left: 9px;
 .tp-5 {
   margin-top: 0px;
   margin-left: 35px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon5 {
   position: absolute;
@@ -1723,7 +1726,7 @@ margin-left: 9px;
 .tp-6 {
   margin-top: 0px;
   margin-left: 30px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon6 {
   position: absolute;
@@ -1733,7 +1736,7 @@ margin-left: 9px;
 .tp-7 {
   margin-top: -1px;
   margin-left: 31px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon7 {
   position: absolute;
@@ -1743,7 +1746,7 @@ margin-left: 9px;
 .tp-8 {
   margin-top: 0px;
   margin-left: 30px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon8 {
   position: absolute;
@@ -1753,7 +1756,7 @@ margin-left: 9px;
 .tp-9 {
   margin-top: 0px;
   margin-left: 30px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon9 {
   position: absolute;
@@ -1763,7 +1766,7 @@ margin-left: 9px;
 .tp-10 {
   margin-top: 0px;
   margin-left: 31px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon10 {
   position: absolute;
@@ -1774,7 +1777,7 @@ margin-left: 9px;
 .tp-11 {
   margin-top: 0px;
   margin-left: 27px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon11 {
   position: absolute;
@@ -1784,7 +1787,7 @@ margin-left: 9px;
 .tp-12 {
   margin-top: -1px;
   margin-left: 27px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon12 {
   position: absolute;
@@ -1794,7 +1797,7 @@ margin-left: 9px;
 .tp-13 {
   margin-top: 0px;
   margin-left: 27px;
-  letter-spacing:0.1px;
+  letter-spacing:.1008px;
 }
 .types-icon13 {
   position: absolute;
@@ -1804,7 +1807,7 @@ margin-left: 9px;
 .tp-14 {
   margin-top: 0px;
   margin-left: 27px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon14 {
   position: absolute;
@@ -1814,7 +1817,7 @@ margin-left: 9px;
 .tp-15 {
   margin-top: 0px;
   margin-left: 27px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon15 {
   position: absolute;
@@ -1824,7 +1827,7 @@ margin-left: 9px;
 .tp-16 {
   margin-top: 0px;
   margin-left: 22px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon16 {
   position: absolute;
@@ -1834,7 +1837,7 @@ margin-left: 9px;
 .tp-17 {
   margin-top: 0px;
   margin-left: 23px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon17 {
   position: absolute;
@@ -1844,7 +1847,7 @@ margin-left: 9px;
 .tp-18 {
   margin-top: 0px;
   margin-left:23px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon18 {
   position: absolute;
@@ -1854,7 +1857,7 @@ margin-left: 9px;
 .tp-19 {
   margin-top: 0px;
   margin-left: 23px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon19 {
   position: absolute;
@@ -1864,7 +1867,7 @@ margin-left: 9px;
 .tp-20 {
   margin-top: 0px;
   margin-left: 23px;
-  letter-spacing: 0.1px;
+  letter-spacing: .1008px;
 }
 .types-icon20 {
   position: absolute;
@@ -1879,8 +1882,36 @@ margin-left: 9px;
 .w-seporator {
   margin-top: -9px;
 }
+.alert-dialog {
+  background-color: #fff;
+  margin: auto;
+  max-width: 28.75rem;
+  min-height: 697px;
+  padding: 2.5rem 3.125rem;
+  position: relative;
+  transform: translateY(-10%);
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.3s;
+  top: 34px;
+  left: 7px;
+}
 .thanks-button {
-  margin-top: -20px;
+  margin-top: 0px;
+}
+.alert-image {
+  margin-top: -1px;
+  margin-left: 1px;
+}
+.alert-title {
+  margin-top: 23px;
+  margin-left: 1px;
+}
+.alert-text {
+  margin-top: 26px;
+  margin-left: 2px;
+}
+.alert-link {
+  text-decoration: none;
 }
 @media (hover: hover) {
   .navbar-button:hover {
@@ -2243,7 +2274,7 @@ margin-left: 9px;
   .navbar-button .button-icon {
     display: block;
     fill:#ffffff;
-    margin-top: -10px;
+    margin-top: -4px;
   }
   .mobile-menu {
     position: fixed;
@@ -3500,7 +3531,7 @@ margin-top: 0;
   margin-top: -14px;
   margin-left: -23px;
   line-height: 27px;
-  letter-spacing: 0.2px;
+  letter-spacing: .2px;
 }
 .dezinefect-text {
   font-size: 14px;
@@ -3686,7 +3717,7 @@ margin-top: 0;
   margin-top: 24px;
   margin-left: -142px;
   font-size: 14px;
-  letter-spacing: 0.4px;
+  letter-spacing: .4px;
 }
 .footer-menu-link {
   font-size: 14px;
@@ -3725,7 +3756,7 @@ margin-top: 0;
   margin-top: 20px;
   margin-left: -197px;
   font-size: 14px;
-  letter-spacing: 0.4px;
+  letter-spacing: .4px;
 }
 .mark-link1 {
   margin-top: 29px;
@@ -4054,5 +4085,16 @@ margin-top: 0;
   font-size: 35px;
   line-height: 120%;
   margin: -6px 9px;
+}
+.section-produce {
+  margin-top: 50px;
+  margin-bottom: -95px;
+}
+.section-types {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.header-about {
+  margin-bottom: 50px;
 }
 }
