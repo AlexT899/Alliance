@@ -139,13 +139,13 @@
   <header class=<?=$header_style;?>>
     <div class="container">
       <div class="about-content contract-content">
-        <div class="about-seporator"></div>
+        <div class="about-seporator contact-seporator"></div>
         <!-- /.seporator -->
-         <h1 class="about-title contract-title">
+         <h1 class="about-title contract-title contact-title">
          <?= $page_title;?>
          </h1>
-         <div class="about-link contract-link">
-          <a href="/index.php" class="about-link-main">Главная</a>
+         <div class="about-link contract-link contact-link">
+          <a href="/index.php" class="about-link-main contact-main-link">Главная</a>
           <a href="/contract-production.php" class="about-link-company"><?= $page_title;?></a>
          </div>
       
