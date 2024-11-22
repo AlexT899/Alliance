@@ -109,7 +109,7 @@
                 <a href="/product-avtohim.php" class="footer-menu-link">Автомобильная химия</a>
               </li>
               <li class="footer-menu-item footer-list2">
-                <a href="#" class="footer-menu-link">Бытовая химия</a>
+                <a href="/blog-more.php" class="footer-menu-link">Бытовая химия</a>
               </li>
               <li class="footer-menu-item footer-list3">
                 <a href="#" class="footer-menu-link">Дезинфицирующие средства</a>
@@ -130,7 +130,7 @@
             <h2 class="footer-menu-title mark-title">Собственные марки</h2>
             <ul class="footer-menu-list mark-list">
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link mark-link1">Автохимия AG-Tech</a>
+                <a href="/ag-tech.php" class="footer-menu-link mark-link1">Автохимия AG-Tech</a>
               </li>
               <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link mark-link2">Автохимия AP</a>

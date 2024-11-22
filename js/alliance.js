@@ -154,7 +154,7 @@ const swiperBlog = new Swiper(".blog-slider", {
 const swiperResearch = new Swiper(".research-slider", {
   speed: 400,
   slidesPerView: 1,
-  spaceBetween:30,
+  spaceBetween:10,
   navigation: {
     nextEl: ".blog-button-next",
     prevEl: ".blog-button-prev", 

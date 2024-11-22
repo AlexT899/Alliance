@@ -209,58 +209,7 @@ rel="stylesheet">
    </div>
    <!-- /.container -->
 </header>
-<section class="section section-light">
-  <div class="container">
-    <div class="scheme-seporator"></div>
-    <h2 class="scheme-section-title">схема работы</h2>
-    <!-- Slider main container -->
-<div class="swiper steps-slider">
-  <!-- Additional required wrapper -->
-  <ol class="swiper-wrapper steps">
-    <!-- Slides -->
-    <li class="swiper-slide steps-item">
-      <span class="steps-num">01</span>
-      <h3 class="steps-title">Знакомство</h3>
-      <p class="steps-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
-      <a href="#" class="button-link">Оставить заявку</a>
-    </li>
-    <li class="swiper-slide steps-item">
-      <span class="steps-num">02</span>
-      <h3 class="steps-title">Заключение<br> договора</h3>
-      <p class="steps-text">Лишь интерактивные прототипы призваны к ответу.</p>
-    </li>
-    <li class="swiper-slide steps-item">
-      <span class="steps-num">03</span>
-      <h3 class="steps-title">Производство</h3>
-      <p class="steps-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые <br>элементы.</p>
-    </li>
-    <li class="swiper-slide steps-item">
-      <span class="steps-num">04</span>
-      <h3 class="steps-title">Доставка</h3>
-      <p class="steps-text">В частности, экономическая повестка сегодняшнего дня говорит о возможностях приоритизации <br>разума над эмоциями.</p>
-    </li>
-  </ol>
- 
-
-  <!-- If we need navigation buttons -->
-  <div class="steps-buttons primary-buttons-wrapper">
-    <div class="steps-button-prev primary-button-prev">
-      <svg width="36" height="24">
-      <use href="img/sprite.svg#arrow-prev"></use>
-     </svg>
-    </div>
-    <div class="steps-button-next primary-button-next">
-      <svg width="36" height="24">
-      <use href="img/sprite.svg#arrow-next"></use>
-     </svg>
-    </div>
-  </div>
-  <!-- /.steps-button -->
-</div>
-  </div>
-  <!-- /.container -->
-</section>
-<!-- /.section-light -->
+<?php include_once('./templates-parts/scheme.php');?>
 
 <div class="section section-production">
   <div class="container">
@@ -354,129 +303,7 @@ rel="stylesheet">
 </section>
 <!-- /.section founder -->
 
- <section class="section-clients">
-  <div class="container">
-    <div class="clients-seporator"></div><!-- /.trademark-seporator -->
-        <div class="clients-wrapper">
-          <div class="clients-content">
-            <h2 class="clients-section-title">Производим аэрозольную продукцию для разных сфер</h2>
-            <ul class="clients-list">
-              <li class="clients-list-item item1">
-                <svg width="30" height="30" class="client-list-icon">
-          <use href="img/sprite.svg#him"></use>
-         </svg>
-         Химические производства
-              </li>
-              <li class="clients-list-item item2">
-                <svg width="30" height="30" class="client-list-icon">
-          <use href="img/sprite.svg#car"></use>
-         </svg>
-         Автомойки
-              </li>
-              <li class="clients-list-item item3">
-                <svg width="30" height="30" class="client-list-icon">
-          <use href="img/sprite.svg#eat"></use>
-         </svg>
-         Пищевая продукция
-              </li>
-              <li class="clients-list-item item4">
-                <svg width="30" height="30" class="client-list-icon">
-          <use href="img/sprite.svg#brush"></use>
-         </svg>
-         Лаки и краски
-              </li>
-              <li class="clients-list-item item5">
-                <svg width="30" height="30" class="client-list-icon1">
-                  <use href="img/sprite.svg#cosmetic"></use>
-                 </svg>
-                 <svg width="30" height="30" class="client-list-icon2">
-                  <use href="img/sprite.svg#cosm"></use>
-                 </svg>
-         Косметические средства
-              </li>
-              <li class="clients-list-item item6">
-                <svg width="30" height="30" class="client-list-icon">
-          <use href="img/sprite.svg#car-cosm"></use>
-         </svg>
-         Автомобильная косметика
-              </li>
-              <li class="clients-list-item item7">
-                <svg width="30" height="30" class="client-list-icon">
-          <use href="img/sprite.svg#shirt"></use>
-         </svg>
-         Косметика по уходу за одеждой
-              </li>
-              <li class="clients-list-item item8">
-                <svg width="30" height="30" class="client-list-icon">
-          <use href="img/sprite.svg#boots"></use>
-         </svg>
-         Косметика по уходу за обувью
-              </li>
-              <li class="clients-list-item item9">
-                <svg width="30" height="30" class="client-list-icon">
-          <use href="img/sprite.svg#bricks"></use>
-         </svg>
-         Строительные материалы
-              </li>
-              <li class="clients-list-item item10">
-                <svg width="30" height="30" class="client-list-icon">
-          <use href="img/sprite.svg#more"></use>
-         </svg>
-         И многих других
-              </li>
-            </ul>
-          </div>
-          <!-- /.clinets-content -->
-           <div class="clients-logo-list">
-            <a href="#" class="client-logo-item">
-              <img src="img/client.png" 
-              alt="client" class="clients-logo">
-            </a>
-            <a href="#" class="client-logo-item">
-              <img src="img/client.png" 
-              alt="client" class="clients-logo">
-            
-            </a>
-            <a href="#" class="client-logo-item">
-              <img src="img/client.png" 
-              alt="client" class="clients-logo">
-            
-            </a>
-            <a href="#" class="client-logo-item">
-              <img src="img/client.png" 
-              alt="client" class="clients-logo">
-            
-            </a>
-            <a href="#" class="client-logo-item">
-              <img src="img/client.png" 
-              alt="client" class="clients-logo">
-            
-            </a>
-            <a href="#" class="client-logo-item">
-              <img src="img/client.png" 
-              alt="client" class="clients-logo">
-            
-            </a>
-            <a href="#" class="client-logo-item">
-              <img src="img/client.png" 
-              alt="client" class="clients-logo">
-            
-            </a>
-            <a href="#" class="client-logo-item">
-              <img src="img/client.png" 
-              alt="client" class="clients-logo">
-            </a>
-            <a href="#" class="client-logo-item">
-              <img src="img/client.png" 
-              alt="client" class="clients-logo">
-            </a>
-           </div>
-           <!-- /.clients-logo -->
-        </div>
-        <!-- /.clinets-wrapper -->
-  </div>
- </section>
- <!-- /.section clients -->
+<?php include_once('./templates-parts/clients.php');?>
   <section class="section-blog">
     <div class="container">
       <div class="blog-seporator"></div>
@@ -503,7 +330,7 @@ rel="stylesheet">
     </a>
   </div> 
  <div class="blog-slider-footer">	
-  <a href="#" class="button-link blog-link">Весь блог</a>
+  <a href="/blog.php" class="button-link blog-link">Весь блог</a>
    <!-- If we need navigation buttons -->
    <div class="blog-buttons primary-buttons-wrapper">
     <div class="blog-button-prev primary-button-prev">
@@ -519,7 +346,7 @@ rel="stylesheet">
   </div>
   <!-- /.blog-button -->
  </div>
- <!-- /.blog-slider-footer --></div>
+ <!-- /.blog-slider-footer -->
 </div><!-- /.container -->
   </section>
   <!-- /.section-blog -->

@@ -181,6 +181,10 @@ left: auto;
   margin-top: -6px;
   margin-left: 8px;
 }
+.about-clients {
+  margin-top: 192px;
+  margin-bottom: 150px;
+}
  .about-title {
   font-family: "BebasNeueBook", sans-serif;
   font-size: 81px;
@@ -402,10 +406,6 @@ word-spacing: 1px;
   margin-top: -32px;
   margin-left: 10px;
 }
-.research-buttons {
-  margin-right: 222px;
-  margin-top: -375px;
-}
 .research-icon-prev {
   margin-left: 12px;
 }
@@ -431,14 +431,26 @@ word-spacing: 1px;
   margin-top: 1.875rem;
   justify-content: flex-end;
 }
+.research-button-prev,
+.research-button-next {
+  background: #5C8EE6;
+  height: 100%;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.research-buttons {
+  margin-right: 222px;
+  margin-top: -5px;
+}
 .research-card-image {
   position: absolute;
   left: 7px;
   top: 5px;
-  width: 100%;
-  height: 50%;
-  object-fit: cover;
-  z-index: -2;
+  width: 705px;
+  height:400px;
 }
 .scheme-seporator {
   background: #5C8EE6;
@@ -1022,7 +1034,7 @@ margin-top: 4px;
 .section-cta {
 position: relative;
 padding-top:0;
-margin-top:215px;
+margin-top:223px;
 padding-bottom: 102px;
 }
 .about-cta {
@@ -1198,7 +1210,7 @@ word-spacing: .2992px;
 }
 .footer-logo {
   width: 200px;
-  height: 63px;
+  height: 67px;
   margin-left: 8px;
 }
 .footer-info {
@@ -1221,7 +1233,7 @@ word-spacing: .2992px;
   text-decoration-line: underline;
   color: #292D33;
   margin-left: 369px;
-  margin-top: 6px;
+  margin-top: 0px;
 }
 .footer-map-icon {
   position: absolute;
@@ -1926,14 +1938,25 @@ margin-left: 9px;
 }
 .contact-info-address {
   font-size: 22px;
-  margin-left: 405px;
+  margin-left: 538px;
+  margin-top: 140px;
+  letter-spacing: 0.1;
 }
 .contact-info-email {
   font-size: 22px;
+  margin-top: 139px;
+  margin-left: 300px;
+}
+.contact-main-link {
+  margin-right: 31px;
 }
 .contact-map-icon {
-  margin-left: 380px;
-  margin-top: 1px;
+  margin-left: 488px;
+  margin-top: 140px;
+}
+.contact-mail-icon {
+  margin-top: 139px;
+  margin-left: 247px;
 }
 .contact-map {
   width: 1440px;
@@ -1953,6 +1976,64 @@ margin-left: 9px;
 .contact-link {
   margin-top: 30px;
   margin-left: 10px;
+}
+.blog-link {
+  margin-top: -5px;
+}
+.contact-social-link-vk {
+  margin-top: 52px;
+  margin-left: -79px;
+}
+.contact-social-link-inst {
+  margin-top: 52px;
+  margin-left: -28px;
+}
+.agtech-produce {
+  background-color: #F0F2F5;
+  height: 676px;
+  margin-top: 130px;
+}
+.ag-tech-photo {
+  position: absolute;
+  width: 50%;
+  margin-top: 0;
+  right: 0;
+}
+.ag-tech-button {
+  width: 289px;
+  height: 76px;
+  margin-left: 7px;
+  background-color: #5C8EE5;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 499px;
+}
+.fa {
+  margin-right: 10px;
+}
+.ag-tech-seporator {
+  position: absolute;
+  margin-top: 100px;
+}
+.ag-tech-content {
+  position: relative;
+}
+.ag-tech-title {
+  position: absolute;
+  margin-top: 125px;
+}
+.ag-tech-text {
+  position: absolute;
+  margin-top: 295px;
+}
+.ag-tech-list {
+  position: absolute;
+  margin-top: 360px;
+  gap: 103px;
+  margin-left: 4px;
 }
 @media (hover: hover) {
   .navbar-button:hover {

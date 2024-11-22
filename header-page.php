@@ -1,9 +1,10 @@
-\<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link 
@@ -144,7 +145,7 @@
          <h1 class="about-title contract-title contact-title">
          <?= $page_title;?>
          </h1>
-         <div class="about-link contract-link contact-link">
+         <div class="about-link contract-link contact-link blog-link">
           <a href="/index.php" class="about-link-main contact-main-link">Главная</a>
           <a href="/contract-production.php" class="about-link-company"><?= $page_title;?></a>
          </div>
@@ -152,5 +153,6 @@
        </div>
        <!-- /.about-content -->
         </div>
+        
   </header>
   

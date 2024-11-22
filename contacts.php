@@ -19,7 +19,7 @@ include_once('header-page.php');?>
           </div>
           <!-- /.mobile-info -->
           <div class="footer-info">
-          <svg class="footer-mail-icon contact-mail-icon"  width="24" height="24">
+          <svg class="footer-mail-icon contact-mail-icon"  width="36" height="36">
             <use href="img/sprite.svg#mail"></use>
            </svg>
            <a href="mailto:a.dragunov@tdaliance.ru" class="footer-info-email contact-info-email">
@@ -28,13 +28,13 @@ include_once('header-page.php');?>
         </div>
         <!-- /.mobile-info -->
         <div class="footer-social">
-          <a href="https://vk.com/feed" class="footer-social-link-vk">
-            <svg class="network-icon"  width="24" height="24">
+          <a href="https://vk.com/feed" class="footer-social-link-vk contact-social-link-vk">
+            <svg class="network-icon"  width="36" height="36">
               <use href="img/sprite.svg#vk"></use>
              </svg>
         </a>
-          <a href="https://www.instagram.com/" class="footer-social-link-inst">
-            <svg class="network-icon"  width="24" height="24">
+          <a href="https://www.instagram.com/" class="footer-social-link-inst contact-social-link-inst">
+            <svg class="network-icon"  width="36" height="36">
               <use href="img/sprite.svg#inst"></use>
              </svg>
           </a>
