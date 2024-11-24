@@ -137,22 +137,21 @@
      </button>
   </nav>
   <!-- /.navbar -->
-  <header class=<?=$header_style;?>>
-    <div class="container">
-      <div class="about-content contract-content">
-        <div class="about-seporator contact-seporator"></div>
-        <!-- /.seporator -->
-         <h1 class="about-title contract-title contact-title">
-         <?= $page_title;?>
-         </h1>
-         <div class="about-link contract-link contact-link blog-link">
-          <a href="/index.php" class="about-link-main contact-main-link">Главная</a>
-          <a href="/contract-production.php" class="about-link-company"><?= $page_title;?></a>
-         </div>
-      
-       </div>
-       <!-- /.about-content -->
-        </div>
-        
-  </header>
+  <header class="page-header <?= $header_style;?>">
+      <!-- <img src="img/bg-avto-him.png" alt="" class="page-header-thumb" /> -->
+      <div class="container">
+        <div class="seporator seporator-blog"></div>
+        <h1 class="page-header-title"><?= $page_title ?></h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a href="index.php" class="breadcrumbs-link">Главная</a>
+          </li>
+          <li class="breadcrumbs-item active">
+            <a href="#" class="breadcrumbs-link"><?= $page_title ?></a>
+          </li>
+          
+        </ul>
+      </div>
+      <!-- /.container -->
+    </header>
   

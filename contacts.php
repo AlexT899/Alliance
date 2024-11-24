@@ -1,6 +1,6 @@
 <?php 
 $page_title= 'Контакты';
-$header_style = 'header-about';
+$header_style = 'page-header-bg-grey';
 include_once('header-page.php');?>
 <footer class="footer">
       <div class="container">

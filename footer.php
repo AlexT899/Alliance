@@ -109,7 +109,7 @@
                 <a href="/product-avtohim.php" class="footer-menu-link">Автомобильная химия</a>
               </li>
               <li class="footer-menu-item footer-list2">
-                <a href="/blog-more.php" class="footer-menu-link">Бытовая химия</a>
+                <a href="#" class="footer-menu-link">Бытовая химия</a>
               </li>
               <li class="footer-menu-item footer-list3">
                 <a href="#" class="footer-menu-link">Дезинфицирующие средства</a>

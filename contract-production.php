@@ -1,6 +1,6 @@
 <?php 
 $page_title= 'Контрактное производство';
-$header_style = 'header-about';
+$header_style = 'page-header-bg-grey';
 include_once('header-page.php');?>
   
   <div class="section section-production s-production">

@@ -173,7 +173,9 @@ left: auto;
   margin-top: 0px;
   margin-left: 8px;
  }
-
+.seporator-blog {
+  margin-top: -6px;
+}
  .about-seporator {
   background: #5C8EE6;
   width: 9.375rem;
@@ -185,45 +187,82 @@ left: auto;
   margin-top: 192px;
   margin-bottom: 150px;
 }
- .about-title {
-  font-family: "BebasNeueBook", sans-serif;
-  font-size: 81px;
-  font-weight: 600;
-  color: #292D33;
-  margin-top: 25px;
-  margin-left: 10px;
-  margin-bottom: 10px;
- }
- .header-about {
-  background-color: #F0F2F5;
-  height: 365px;
- }
-.about-content {
+.page-header {
   padding-top: 9.375rem;
+  padding-bottom: 3.125rem;
+  color: #292d33;
   position: relative;
-  z-index: 1;
-  background-color:#F0F2F5;
 }
-.about-link {
-  
-  margin-top:28px;
-  margin-left: 10px;
+.page-header-thumb {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  max-width: 30rem;
+}
+.page-header-bg-image {
+  background-image: url("../img/blog-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
 }
 
-.about-link-main {
-  text-decoration: none;
-  margin-right: 2px;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 140%;
-  color: #828A99;
+.page-header-bg-image:before {
+  content: "";
+  left: 0;
+  top: 0;
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(41, 45, 51, 0.6);
 }
-.about-link-company {
+.page-header-bg-image .container {
+  position: relative;
+}
+.page-header-bg-grey {
+  background: #f0f2f5;
+}
+.page-header-title {
+  font-family: "BebasNeueBook";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 120%;
+  color: inherit;
+  margin-top: 22px;
+  margin-left: 11px;
+  margin-bottom: 20px;
+  letter-spacing: 0.4px;
+}
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 10px;
+  margin-top: 29px;
+}
+.breadcrumbs-link {
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 140%;
-  color: #292D33;
+  color: inherit;
+  font-size: 15px;
+  margin-left: 8px;
+}
+.breadcrumbs-link {
+  color: #828a99;
+}
+.breadcrumbs-item.active .breadcrumbs-link {
+  color: #292d33;
+}
+.breadcrumbs-item:not(:last-child)::after {
+  content: "—";
+  margin-left: 10px;
+}
+.page-header-bg-image .breadcrumbs-link,
+.page-header-bg-image .breadcrumbs-item.active .breadcrumbs-link {
+  color: #fff;
 }
 .expert-photo {
   position: absolute;
@@ -962,7 +1001,7 @@ margin-top: 4px;
 .blog-title {
  font-family: "BebasNeueBook", sans-serif;
  font-size: 60px;
- font-weight: 600;
+ font-weight: 900;
  line-height: 72px;
  text-align: left;
  color: #292D33;
@@ -2034,6 +2073,168 @@ margin-left: 9px;
   margin-top: 360px;
   gap: 103px;
   margin-left: 4px;
+}
+.share-network {
+  margin-top: 104px;
+}
+.share-social-link{
+  text-decoration: none;
+}
+.share-network-icon {
+  display:inline-block;
+  margin-right: 10px;
+}
+.share-network-icon1 {
+  margin-top: -1px;
+  margin-left: 8px;
+}
+.share-network-icon2 {
+  margin-top: -1px;
+  margin-left: -4px;
+}
+.share-network-icon3 {
+  margin-top: -1px;
+  margin-left: -5px;
+}
+.share-network-icon4 {
+  margin-top: -1px;
+  margin-left: -4px;
+}
+.share-network-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+  color: #828A99;
+  margin-bottom: 20px;
+  margin-left: 9px;
+}
+.title-blog {
+  display: flex;
+  justify-content:space-evenly;
+  margin-left: 325px;
+  margin-top: -98px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #292D33;
+  margin-bottom: 20px;
+  word-spacing:3px;
+}
+.title-blog2 {
+  font-size: 28px;
+  margin-top: 52px;
+  margin-right: 77px;
+  margin-bottom: 23px;
+  word-spacing: 0.3px;
+}
+.text-blog {
+  display: flex;
+  justify-content:space-evenly;
+  max-width: 960px;
+  margin-left: 490px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #292D33;
+  margin-bottom: 50px;
+  word-spacing: 0.7px;
+}
+.text-blog1 {
+margin-top: -2px;
+margin-left: 489px;
+}
+.text-blog2 {
+  margin-top: -25px;
+  margin-left: 486px;
+}
+.text-blog3 {
+  margin-top: -28px;
+  margin-left: 490px;
+}
+.blog-expert-image {
+ margin-left: 487px;
+ margin-top: -29px;
+}
+.blog-expert-list {
+  list-style: none;
+
+  margin-left: 450px;
+}
+.blog-expert-icon {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: -2px;
+}
+.blog-expert-icon2 {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: -2px;
+}
+.blog-expert-icon3 {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: -1px;
+}
+.blog-expert-list-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #292D33;
+  margin-top: 47px;
+}
+.blog-expert-list-title2 {
+  font-size: 28px;
+  margin-left: 40px;
+  margin-top: 55px;
+}
+.blog-expert-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: #292D33;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.blog-expert-text2 {
+  margin-top: -6px;
+  margin-left: 30px;
+}
+.blog-expert-text3 {
+  margin-top: -5px;
+  margin-left: 30px;
+}
+.blog-expert-text4 {
+  margin-top: 28px;
+  margin-left: 39px;
+}
+.expert-steps{
+  list-style: none;
+  margin-left: 449px;
+}
+.expert-step-num {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5C8EE5;
+  margin-top: 2px;
+}
+.expert-steps-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #292D33;
+  margin-left: 36px;
+  margin-top: 24px;
+}
+.expert-steps-text2 {
+  margin-top: 17px;
+  margin-left: 36px;
+}
+.expert-steps-text3 {
+  margin-top: -2px;
+  margin-left: 36px;
 }
 @media (hover: hover) {
   .navbar-button:hover {

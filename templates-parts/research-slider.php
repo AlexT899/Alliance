@@ -17,16 +17,16 @@
     <div class="swiper-wrapper">
       <!-- Slides -->
     
-      <a href="#" class="swiper-slide research-slider-card">
+      <a href="/blog-more.php" class="swiper-slide research-slider-card">
         <img src="img/blog-image1.jpg" alt="" class="research-card-image">
       </a>
-      <a href="#" class="swiper-slide research-slider-card">
+      <a href="/blog-more.php" class="swiper-slide research-slider-card">
         <img src="img/blog-image2.jpg" alt="" class="research-card-image">
       </a>
-      <a href="#" class="swiper-slide research-slider-card">
+      <a href="/blog-more.php" class="swiper-slide research-slider-card">
         <img src="img/blog-image1.jpg" alt="" class="research-card-image">
       </a>
-      <a href="#" class="swiper-slide research-slider-card">
+      <a href="/blog-more.php" class="swiper-slide research-slider-card">
         <img src="img/blog-image2.jpg" alt="" class="research-card-image">
       </a>
     </div> 
