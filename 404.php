@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/alliance.css">
-    <title><?= $page_title;?>-Aliance Production</title>
+    <title>Новости-Aliance Production</title>
   </head>
 <body>
   <div class="mobile-menu">
@@ -137,21 +137,14 @@
      </button>
   </nav>
   <!-- /.navbar -->
-  <header class="page-header <?= $header_style;?>">
-      <!-- <img src="img/bg-avto-him.png" alt="" class="page-header-thumb" /> -->
-      <div class="container">
-        <div class="seporator seporator-blog"></div>
-        <h1 class="page-header-title"><?= $page_title ?></h1>
-        <ul class="breadcrumbs">
-          <li class="breadcrumbs-item">
-            <a href="index.php" class="breadcrumbs-link">Главная</a>
-          </li>
-          <li class="breadcrumbs-item active">
-            <a href="#" class="breadcrumbs-link"><?= $page_title ?></a>
-          </li>
-          
-        </ul>
-      </div>
-      <!-- /.container -->
-    </header>
-  
+   <section class="error-section">
+   <div class="error">
+   <img src="img/404 (1).jpg" alt="404" class="error-num">
+   <h3 class="page-not-found">Страница не найдена</h3>
+   <p class="error-page">Мы не смогли найти страницу с таким адресом, попробуйте <br> перейти на главную или напишите нам.</p>
+   <a href="/index.php">
+   <button class="button header-button error-button">Вернуться на главную</button>
+   </a>
+   </div>
+   </section>
+<?php include_once('./templates-parts/politic-footer.php');?>
