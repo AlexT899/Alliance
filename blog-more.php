@@ -48,7 +48,11 @@ include_once('header-page.php');?>
   </p>
   <p class="text-blog text-blog3">
   Разнообразный и богатый опыт начало повседневной работы по формированию позиции позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач. Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет выполнять важные задания по разработке форм развития. Задача организации, в особенности же постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.</p>
-  <img src="img/blog-expert.png" alt="Картинка" class="blog-expert-image">
+  <picture>
+        <source type="image/webp" srcset="img/blog-expert.webp">
+        <source type="image/jpeg" srcset="img/blog-expert.png">
+        <img class="blog-expert-image" src="img/blog-expert.png" alt="blog-expert">
+      </picture>
   <ul class="blog-expert-list">
   <h1 class="blog-expert-list-title">
   Равным образом консультация с широким активом:

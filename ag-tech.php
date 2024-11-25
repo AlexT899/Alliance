@@ -5,9 +5,12 @@ include_once('header-page.php');?>
 <section class="section-avtohim">
     
     <div class="container">
-      
       <div class="avtohim-content-wrapper">
-        <img src="img/ag-tech.png" alt="" class="avtohim-image">
+      <picture>
+        <source type="image/webp" srcset="img/ag-tech.webp">
+        <source type="image/jpeg" srcset="img/ag-tech.png">
+        <img class="avtohim-image" src="img/ag-tech.png" alt="ag-tech">
+      </picture>
         <div class="avtohim-content">
           <div class="founder-seporator a-seporator agtech-seporator"></div><!-- /.trademark-seporator -->
           <h2 class="avtohim-section-title section-ag-tech-title">Собственное производство автохимия AG-Tech</h2>
@@ -66,7 +69,11 @@ include_once('header-page.php');?>
             
           </div>
           <!-- /.clinets-wrapper -->
-          <img src="img/agtech-bg.png" alt="" class="ag-tech-photo">
+          <picture>
+        <source type="image/webp" srcset="img/agtech-bg.webp">
+        <source type="image/jpeg" srcset="img/agtech-bg.png">
+        <img class="ag-tech-photo" src="img/agtech-bg.png" alt="agtech">
+      </picture>
     </div>
    </section>
    <?php include_once('./templates-parts/research-slider.php');?>

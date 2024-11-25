@@ -18,16 +18,32 @@
       <!-- Slides -->
     
       <a href="/blog-more.php" class="swiper-slide research-slider-card">
-        <img src="img/blog-image1.jpg" alt="" class="research-card-image">
+      <picture>
+        <source type="image/webp" srcset="img/blog-image1.webp">
+        <source type="image/jpeg" srcset="img/blog-image1.jpg">
+        <img class="research-card-image" src="img/blog-image1.jpg" alt="research">
+      </picture>
       </a>
       <a href="/blog-more.php" class="swiper-slide research-slider-card">
-        <img src="img/blog-image2.jpg" alt="" class="research-card-image">
+      <picture>
+        <source type="image/webp" srcset="img/blog-image2.webp">
+        <source type="image/jpeg" srcset="img/blog-image2.jpg">
+        <img class="research-card-image" src="img/blog-image2.jpg" alt="research">
+      </picture>
       </a>
       <a href="/blog-more.php" class="swiper-slide research-slider-card">
-        <img src="img/blog-image1.jpg" alt="" class="research-card-image">
+      <picture>
+        <source type="image/webp" srcset="img/blog-image1.webp">
+        <source type="image/jpeg" srcset="img/blog-image1.jpg">
+        <img class="research-card-image" src="img/blog-image1.jpg" alt="research">
+      </picture>
       </a>
       <a href="/blog-more.php" class="swiper-slide research-slider-card">
-        <img src="img/blog-image2.jpg" alt="" class="research-card-image">
+      <picture>
+        <source type="image/webp" srcset="img/blog-image2.webp">
+        <source type="image/jpeg" srcset="img/blog-image2.jpg">
+        <img class="research-card-image" src="img/blog-image2.jpg" alt="research">
+      </picture>
       </a>
     </div> 
    <div class="research-slider-footer">	

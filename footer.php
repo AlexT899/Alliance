@@ -1,6 +1,10 @@
 <section class="cta">
     <div class="bg-grey section-cta">
+    <picture>
+      <source type="image/webp" srcset="img/cta-bg.webp">
+      <source type="image/jpeg" srcset="img/cta-bg.png">
       <img src="img/cta-bg.png" alt="cta" class="cta-image">
+    </picture>
       <div class="cta-form-wrapper container">
         <form action="\handler.php" method="POST" class="cta-form">
           <h2  class="cta-form-title">Хотите сотрудничать?</h2>

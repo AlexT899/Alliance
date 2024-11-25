@@ -9,6 +9,7 @@ html {
   font-family: 'BebasNeueBook';
   src: url('../fonts/BebasNeueBook.woff') format('woff');
   font-weight: normal;
+  font-display: swap;
   font-style: normal;
   }
 body {
@@ -63,8 +64,11 @@ body {
 .header {
   padding-top: 5.875rem;
 }
-.header-image {
+.no-webp .header-image {
   background-image: url("../img/header-bg.jpg");
+}
+.header-image {
+  background-image: url("../img/header-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom -32px;

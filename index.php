@@ -211,97 +211,9 @@ rel="stylesheet">
 </header>
 <?php include_once('./templates-parts/scheme.php');?>
 
-<div class="section section-production">
-  <div class="container">
-    <div class="production-seporator"></div>
-    <h2 class="production-section-title">Контрактное производство</h2>
-    <div class="cards">
-      <a href="/product-avtohim.php" class="card">
-      <div class="card-content">
-        <h3 class="card-title avto-him">Автомобильная химия</h3>
-      <p class="card-text him">
-        Безусловно, сплочённость команды<br> профессионалов позволяет оценить<br> значение форм воздействия.
-      </p>
-      </div>
-      <!-- /.card-contnet -->
-      <img src="img/avto-him.png" alt="Автомобильная химия" class="card-image">
-    </a>
-    <a href="#" class="card">
-      <div class="card-content">
-        <h3 class="card-title bit-him">Бытовая химия</h3>
-      <p class="card-text him-bit">
-        А также стремящиеся вытеснить традиционное производство,<br> нанотехнологии функционально<br> разнесены на независимые элементы.
-      </p>
-      </div>
-      <!-- /.card-contnet -->
-      <img src="img/bit-him.png" alt="Бытовая химия" class="card-image">
-    </a>
-    <a href="#" class="card">
-      <div class="card-content">
-        <h3 class="card-title dezinefect-title">Дезинфицирующие средства</h3>
-      <p class="card-text dezinefect-text">
-        Лишь интерактивные прототипы<br> призваны к ответу.
-      </p>
-      </div>
-      <!-- /.card-contnet -->
-      <img src="img/dezinfect.png" alt="Дезинфицирующие средства" class="card-image">
-    </a>
-    <a href="#" class="card">
-      <div class="card-content">
-        <h3 class="card-title food-title">Пищевые аэрозоли</h3>
-      <p class="card-text food-text">
-        Безусловно, сплочённость команды профессионалов позволяет оценить<br> значение форм воздействия.
-      </p>
-      </div>
-      <!-- /.card-contnet -->
-      <img src="img/dezinfect.png" alt="Пищевые аэрозоли" class="card-image">
-    </a>
-    <a href="#" class="card">
-      <div class="card-content">
-        <h3 class="card-title aerosol-title">Косметическая продукция</h3>
-      <p class="card-text aerosol-text">
-        Лишь интерактивные прототипы<br> призваны к ответу.
-      </p>
-      </div>
-      <!-- /.card-contnet -->
-      <img src="img/avto-him.png" alt="Косметическая продукция" class="card-image">
-    </a>
-    <a href="#" class="card">
-      <div class="card-content">
-        <h3 class="card-title paint-title">Краски аэрозольные</h3>
-      <p class="card-text paint-text">
-        А также стремящиеся вытеснить <br>традиционное производство,<br> нанотехнологии функционально<br>	 разнесены на независимые элементы.
-      </p>
-      </div>
-      <!-- /.card-contnet -->
-      <img src="img/bit-him.png" alt="Краски аэрозольные" class="card-image">
-    </a>
-  </div>
-  </div>
-  <!-- /.container -->
-</div>
-<!-- /.section section-production -->
+<?php include_once('./templates-parts/section-production.php');?>
 <?php $block_title = "собственные торговые марки"; include_once('./templates-parts/trademarks-blog.php')?>
-<section class="section founder">
-  <img src="img/founder.jpg.jpg" alt="Founder" class="founder-photo">
-  <div class="container">
-    <div class="founder-content-wrapper">
-      <div class="founder-content">
-        <div class="founder-seporator"></div><!-- /.trademark-seporator -->
-        <h2 class="founder-section-title">Отношение к делу<br> и к клиентам</h2>
-        <p class="founder-text">
-          Кстати, интерактивные прототипы описаны максимально подробно. Повседневная практика показывает, что укрепление и развитие внутренней структуры говорит о возможностях соответствующих условий активизации. Внезапно, независимые государства, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут подвергнуты целой серии независимых<br> исследований. С учётом сложившейся международной обстановки, синтетическое тестирование выявляет срочную потребность системы массового участия</p>
-          <p class="founder-text2">А ещё действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены сами себе. Не следует, однако, забывать, что выбранный нами инновационный путь в значительной степени обусловливает важность дальнейших направлений развития.</p>
-        <a href="about.php" class="button-link founder-link">Подробнее о компании</a>
-        <a href="#" class="button-link founder-link2">О нашей миссии</a>
-        <!-- /.founder-text -->
-      </div>
-      <!-- /.founder-content -->
-    </div>
-    <!-- /.founder-content-wrapper -->
-  </div>
-</section>
-<!-- /.section founder -->
+<?php include_once('founder.php');?>
 
 <?php include_once('./templates-parts/clients.php');?>
 <?php 

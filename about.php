@@ -5,7 +5,11 @@ include_once('header-page.php');?>
   
   
   <section class="expert">
-    <img src="img/expert.jpg" alt="expert" class="expert-photo">
+  <picture>
+  <source type="image/webp" srcset="img/expert.webp">
+  <source type="image/jpeg" srcset="img/expert.jpg">
+  <img class="expert-photo" src="img/expert.jpg" alt="expert">
+</picture>
     <div class="container">
       <div class="expert-content-wrapper">
         <div class="expert-content">
@@ -72,32 +76,17 @@ include_once('header-page.php');?>
             </ul>
           </div>
           <!-- /.clinets-content -->
-          <img src="img/production.png" alt="" class="produce-photo">
+          <picture>
+            <source type="image/webp" srcset="img/production.webp">
+            <source type="image/jpeg" srcset="img/production.png">
+            <img class="produce-photo" src="img/production.png" alt="production">
+          </picture>
         </div>
         <!-- /.clinets-wrapper -->
   </div>
  </section>
 
- <section class="section founder">
-  <img src="img/founder.jpg.jpg" alt="Founder" class="founder-photo f-photo">
-  <div class="container">
-    <div class="founder-content-wrapper">
-      <div class="founder-content">
-        <div class="founder-seporator f-seporator"></div><!-- /.trademark-seporator -->
-        <h2 class="founder-section-title">Отношение к делу<br> и к клиентам</h2>
-        <p class="founder-text">
-          Кстати, интерактивные прототипы описаны максимально подробно. Повседневная практика показывает, что укрепление и развитие внутренней структуры говорит о возможностях соответствующих условий активизации. Внезапно, независимые государства, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут подвергнуты целой серии независимых<br> исследований. С учётом сложившейся международной обстановки, синтетическое тестирование выявляет срочную потребность системы массового участия</p>
-          <p class="founder-text2">А ещё действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены сами себе. Не следует, однако, забывать, что выбранный нами инновационный путь в значительной степени обусловливает важность дальнейших направлений развития.</p>
-        <a href="#" class="button-link founder-link">Подробнее о компании</a>
-        <a href="#" class="button-link founder-link2">О нашей миссии</a>
-        <!-- /.founder-text -->
-      </div>
-      <!-- /.founder-content -->
-    </div>
-    <!-- /.founder-content-wrapper -->
-  </div>
-</section>
-<!-- /.section founder -->
+ <?php include_once('founder.php');?>
 <?php include_once('./templates-parts/research-slider.php');?>
 
 <?php include_once('./templates-parts/clients.php');?>

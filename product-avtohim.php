@@ -7,7 +7,12 @@ include_once('header-page.php');?>
     <div class="container">
       
       <div class="avtohim-content-wrapper">
+      <picture>
+        <source type="image/webp" srcset="img/product-avtohim.webp">
+        <source type="image/jpeg" srcset="img/product-avtohim.png">
         <img src="img/product-avtohim.png" alt="" class="avtohim-image">
+      </picture>
+        
         <div class="avtohim-content">
           <div class="founder-seporator a-seporator"></div><!-- /.trademark-seporator -->
           <h2 class="avtohim-section-title">Контрактное производство автомобильной химии</h2>
@@ -90,7 +95,12 @@ include_once('header-page.php');?>
             
           </div>
           <!-- /.clinets-wrapper -->
-          <img src="img/product-avtohim-science.jpg" alt="" class="product-avtohim-photo">
+          <picture>
+            <source type="image/webp" srcset="img/product-avtohim-science.webp">
+            <source type="image/jpeg" srcset="img/product-avtohim-science.jpg">
+            <img src="img/product-avtohim-science.jpg" alt="" class="product-avtohim-photo">
+          </picture>
+          
     </div>
    </section>
    <section class="section-types">
