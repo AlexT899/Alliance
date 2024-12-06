@@ -144,7 +144,7 @@
         <h1 class="page-header-title"><?= $page_title ?></h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <a href="index.php" class="breadcrumbs-link">Главная</a>
+            <a href="index.php" class="breadcrumbs-link breadcrumbs-link1">Главная</a>
           </li>
           <li class="breadcrumbs-item active">
             <a href="#" class="breadcrumbs-link"><?= $page_title ?></a>

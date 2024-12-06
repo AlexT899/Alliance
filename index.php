@@ -210,7 +210,9 @@
 </header>
 <?php include_once('./templates-parts/scheme.php');?>
 
-<?php include_once('./templates-parts/section-production.php');?>
+<?php
+$production_title = "Контрактное производство"; 
+include_once('./templates-parts/section-production.php');?>
 <?php $block_title = "собственные торговые марки"; include_once('./templates-parts/trademarks-blog.php')?>
 <?php include_once('founder.php');?>
 

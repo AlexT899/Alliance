@@ -4,7 +4,7 @@ $header_style = 'page-header-bg-grey';
 include_once('header-page.php');?>
 <footer class="footer">
       <div class="container">
-        <div class="footer-top">
+        <div class="footer-top contact-top">
            <a href="tel:+74996861014" class="footer-phone contact-phone">
             +7 (499) 686-10-14
           </a>

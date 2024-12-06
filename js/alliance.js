@@ -54,7 +54,7 @@ const swiperSteps = new Swiper(".steps-slider", {
     },
     // when window width is >= 480px
     768: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
     // when window width is >= 640px
     1024: {
@@ -123,7 +123,7 @@ const swiperAbout = new Swiper(".about-slider",{
 const swiperBlog = new Swiper(".blog-slider", {
   speed: 400,
   slidesPerView: 5,
-  spaceBetween:30,
+  spaceBetween: 10,
   navigation: {
     nextEl: ".blog-button-next",
     prevEl: ".blog-button-prev", 
@@ -131,21 +131,19 @@ const swiperBlog = new Swiper(".blog-slider", {
   breakpoints: {
   
     576: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     // when window width is >= 480px
     768: {
       slidesPerView: 1,
     },
     // when window width is >= 640px
-    1024: {
-      slidesPerView: 2,
-    },
+   
     1200: {
       slidesPerView: 2,
     },
     // when window width is >= 320px
-    450: {
+    375: {
       slidesPerView: 1,
     },
   },

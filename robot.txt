@@ -1,0 +1,11 @@
+<picture class="blog-card-image">
+          <source type="image/webp" srcset="img/blog-image1.webp">
+          <source type="image/jpeg" srcset="img/blog-image1.jpg">
+          <img src="img/blog-image1.jpg" alt="founder">
+        </picture>
+
+        <picture class="blog-card-image">
+  <source type="image/webp" srcset="img/blog-image2.webp">
+  <source type="image/jpeg" srcset="img/blog-image2.jpg">
+  <img src="img/blog-image2.jpg" alt="founder">
+</picture>

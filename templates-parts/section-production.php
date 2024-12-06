@@ -1,7 +1,13 @@
-<div class="section section-production s-production">
+<section class="section section-production">
     <div class="container">
-      <div class="cards">
-        <a href="/product-avtohim.php" class="card">
+    <?php 
+    if (!empty($production_title)) {
+      echo '<div class="production-seporator"></div>';
+      echo '<h2 class="production-section-title">'. $production_title .'</h2>';
+    }
+    ?>
+    <div class="cards">
+    <a href="/product-avtohim.php" class="card">
         <div class="card-content">
           <h3 class="card-title avto-him">Автомобильная химия</h3>
         <p class="card-text him">
@@ -17,7 +23,7 @@
       </a>
       <a href="#" class="card">
         <div class="card-content">
-          <h3 class="card-title bit-him">Бытовая химия</h3>
+          <h3 class="card-title bit-him ">Бытовая химия</h3>
         <p class="card-text him-bit">
           А также стремящиеся вытеснить традиционное производство,<br> нанотехнологии функционально<br> разнесены на независимые элементы.
         </p>
@@ -86,7 +92,8 @@
         </picture>
       </a>
     </div>
+    <!-- /.cards -->
     </div>
     <!-- /.container -->
-  </div>
+  </section>
   <!-- /.section section-production -->
