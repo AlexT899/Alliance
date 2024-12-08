@@ -11,8 +11,9 @@
       <span class="steps-num">01</span>
       <h3 class="steps-title">Знакомство</h3>
       <p class="steps-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
+      <a href="#" class="button-link" data-toggle="modal" data-target="#feedback-modal">Оставить заявку</a>
     </li>
-    <a href="#" class="button-link" data-toggle="modal" data-target="#feedback-modal">Оставить заявку</a>
+    
     <li class="swiper-slide steps-item">
       <span class="steps-num">02</span>
       <h3 class="steps-title">Заключение<br> договора</h3>
@@ -29,10 +30,11 @@
       <p class="steps-text">В частности, экономическая повестка сегодняшнего дня говорит о возможностях приоритизации <br>разума над эмоциями.</p>
     </li>
   </ol>
- 
+  
 
   <!-- If we need navigation buttons -->
   <div class="steps-buttons primary-buttons-wrapper">
+  
     <div class="steps-button-prev primary-button-prev">
       <svg width="36" height="24">
       <use href="img/sprite.svg#arrow-prev"></use>

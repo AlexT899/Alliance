@@ -75,7 +75,7 @@ body {
   background-image: url("../img/header-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom -32px;
+  background-position: center bottom -27px;
   position: relative;
 }
 .header-image::before {
@@ -324,7 +324,7 @@ body {
  }
  .about-features {
   display: flex;
-  height: 10.5rem;
+  min-height: 10.5rem;
   padding: 0;
   margin-top: 104px;
   list-style: none;
@@ -506,6 +506,7 @@ body {
   color: #fff;
   justify-content: flex-end;
   padding: 50px;
+  max-width: 705px;
 }
 .research-slider {
   margin-top: 50px;
@@ -585,7 +586,7 @@ body {
   font-family: "BebasNeueBook", sans-serif;
   font-size: 5rem;
   line-height: 120%;
-  margin: 25px 11px;
+  margin: 23px 11px;
   letter-spacing: .05rem;
   word-spacing: -0.225rem;
 }
@@ -604,7 +605,7 @@ body {
   display: flex;
   min-height: 10.5rem;
   padding: 0;
-  margin-top: 40px;
+  margin-top: 103px;
   list-style: none;
   color:#fff;
   position: relative;
@@ -711,16 +712,17 @@ body {
   line-height: 160%;
   color: #5C8EE6;
   padding: 1px 14px;
-  margin-top: 21px;
+  margin-top: 22px;
+  margin-left: -5px;
 }
 .button-link:before {
   content:'';
   height: 1px;
   background: #5C8EE6;
   width: 40px;
-  margin-right: 21px;
   transition: width 0.2s;
-  margin-top: 3px;
+  margin-top: 1px;
+  margin-right: 21px;
 }
 .primary-buttons-wrapper {
   display: flex;
@@ -841,7 +843,7 @@ body {
   width: 9.375rem;
   height: .125rem;
   margin-bottom: 30px;
-  margin-top: -2px;
+  margin-top: 153px;
   margin-left: 8px;
 }
 .trademark-card {
@@ -946,7 +948,7 @@ body {
   line-height: 160%;
   color: #5C8EE6;
   padding: 1px 14px;
-  margin-top: 29px;
+  margin-top: 31px;
   margin-left: -6px;
 }
 .founder-link2 {
@@ -973,8 +975,8 @@ body {
   width: 9.375rem;
   height: .125rem;
   margin-bottom: 30px;
-  margin-top: -50px;
-  margin-left: -4px;
+  margin-top: -1px;
+  margin-left: 8px;
 }
 .clients-wrapper {
   display: flex;
@@ -1010,7 +1012,7 @@ body {
   display: none;
 }
 .item1 {
-  margin-top: -13px;
+  margin-top: -16px;
 }
 .item2 {
   margin-top: 4px;
@@ -1030,7 +1032,7 @@ body {
   margin-left: 6px;
 }
 .item7 {
-  margin-top: 8px;
+  margin-top: 3px;
   margin-left: 6px;
 }
 .item8 {
@@ -1081,7 +1083,6 @@ body {
   width: 9.375rem;
   height: .125rem;
   margin-left: 8px;
-  margin-top: -6px;
 }
 .blog-title {
   font-family: "BebasNeueBook", sans-serif;
@@ -1132,9 +1133,14 @@ body {
   margin-top: 0;
   margin-left: 11px;
 }
+.blog-card-title2 {
+  margin-left: 9px;
+  word-spacing: 2px;
+  margin-bottom: 11px;
+}
 .blog-card-text {
   font-style: normal;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 400;
   line-height: 160%;
   margin-top: 0;
@@ -1142,6 +1148,12 @@ body {
   margin-left:8px ;
   word-spacing: .6992px;
 }
+.blog-card-text2 {
+  margin-left: 8px;
+  margin-bottom: -1px;
+}
+
+
 .blog-link {
   margin-top: 5px;
   margin-left: -5px;
@@ -1221,7 +1233,6 @@ body {
   color: #828A99;
   margin-top: -35px;
   margin-bottom: 40px;
-  max-width: 640px;
   margin-left: -830px;
   word-spacing: .2992px;
 }
@@ -1386,7 +1397,17 @@ body {
   margin-top: -7px;
   margin-left: 110px;
 }
+.contact-map-icon {
+  position: absolute;
+  margin-top: -7px;
+  margin-left: 110px;
+}
 .footer-mail-icon {
+  position: absolute;
+  margin-top: -7px;
+  margin-left:59px;
+}
+.contact-mail-icon {
   position: absolute;
   margin-top: -7px;
   margin-left:59px;
@@ -1397,6 +1418,18 @@ body {
   text-decoration: inherit;
   color: inherit;
   word-spacing: .0063rem;
+}
+.contact-info-address,
+.contact-info-email {
+  font-style: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  word-spacing: .0063rem;
+}
+.contact-info-email {
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 94px;
 }
 .footer-info-address {
   position: absolute;
@@ -1418,6 +1451,18 @@ body {
   text-decoration: none;
 }
 .footer-social-link-inst {
+  position: absolute;
+  margin-left: -14px;
+  margin-top: -15px;
+  text-decoration: none;
+}
+.contact-social-link-vk {
+  position: absolute;
+  margin-left: -54px;
+  margin-top: -15px;
+  text-decoration: none;
+}
+.contact-social-link-inst {
   position: absolute;
   margin-left: -14px;
   margin-top: -15px;
@@ -1515,15 +1560,15 @@ body {
   color: inherit;
 }
 .footer-copyright {
-  margin-top: 11px;
+  margin-top: 13px;
   margin-left: -26px;
 }
 .footer-policy {
-  margin-top: 0px;
-  margin-left: 14px;
+  margin-top: 2px;
+  margin-left: 15px;
 }
 .footer-author {
-  margin-top: 3px;
+  margin-top: -1px;
   position: relative;
 }
 .made-in {
@@ -1812,8 +1857,8 @@ body {
 }
 .avtohim-types-text{
   margin-top: 32px;
-  margin-left: 9px;
-  width: 840px;
+  margin-left: -1px;
+  width: 819px;
   font-size: 1rem;
   font-weight: 400;
   line-height: 162%;
@@ -2087,6 +2132,11 @@ body {
   text-decoration: none;
 }
 .contact-top {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 1px;
 }
 .contact-phone {
@@ -2101,10 +2151,10 @@ body {
   margin-top: 142px;
 }
 .contact-info-address {
+  position: absolute;
   font-size: 22px;
   margin-left: 538px;
   margin-top: 140px;
-  letter-spacing: 0.1;
 }
 .contact-info-email {
   font-size: 22px;
@@ -2123,7 +2173,7 @@ body {
   margin-left: 247px;
 }
 .contact-map {
-  width: 1440px;
+  width: 100%;
   height: 600px;
   margin-top: 158px;
   margin-left: 10px;
@@ -2506,6 +2556,27 @@ margin-left: 489px;
 .steps-text {
   font-size: 13px;
 }
+.contact-phone {
+  font-size: 40px;
+}
+.contact-map-icon {
+  margin-left: 370px;
+}
+.contact-info-address {
+  font-size: 21px;
+  margin-left: 405px;
+}
+.contact-mail-icon {
+  margin-left: 150px;
+}
+.contact-info-email {
+  font-size: 21px;
+  margin-left: 190px;
+}
+.section-types {
+  margin-top: 240px;
+  margin-bottom: 150px;
+}
 }
 @media (max-width:1460px) {
   html {
@@ -2591,6 +2662,34 @@ margin-left: 489px;
   width: 50px;
   height: 50px;
 }
+.contact-phone {
+  font-size: 35px;
+}
+.contact-map-icon {
+  margin-left: 330px;
+}
+.contact-info-address {
+  font-size: 20px;
+  margin-left: 370px;
+}
+.contact-mail-icon {
+  margin-left: 140px;
+}
+.contact-info-email {
+  font-size: 20px;
+  margin-left: 180px;
+}
+.section-types {
+  margin-top: -30px;
+  margin-bottom: 150px;
+}
+.types-list {
+  width: 94%;
+  padding: 0;
+  list-style: none;
+  columns: 2 auto;
+  margin-top: 42px;
+}
 }
 @media (max-width:1260px) {
   .cta-image {
@@ -2601,7 +2700,7 @@ margin-left: 489px;
     text-align: center;
 }
   .cta-form-text {
-    margin-left: -737px;
+    margin-left: -655px;
 }
   .made-in-icon {
     position: absolute;
@@ -2752,6 +2851,32 @@ margin-left: 489px;
 .avtohim-title {
    font-size: 55px;
 }
+.produce-section-title{
+  font-size: 50px;
+}
+.contact-phone {
+  font-size: 30px;
+}
+.contact-map-icon {
+  margin-left: 270px;
+}
+.contact-info-address {
+  font-size: 15px;
+  margin-left: 304px;
+  margin-top: 150px;
+}
+.contact-mail-icon {
+  margin-left: 110px;
+  margin-top: 150px;
+}
+.contact-info-email {
+  font-size: 15px;
+  margin-left: 150px;
+  margin-top: 155px;
+}
+.page-header-thumb {
+  right: 3%;
+}
 }
 @media (max-width:992px) {
   html {
@@ -2764,6 +2889,7 @@ margin-left: 489px;
    flex-direction: column;
    align-items: center;
 }
+
   .avtohim-image {
    display: flex;
    width: 70%;
@@ -2799,17 +2925,24 @@ margin-left: 489px;
   .navbar-light .mobile-menu-line {
    background: #333;
 }
+  .cta-form-title {
+   margin-left: -705px;
+}
+  .cta-form-text {
+    margin-top: -55px;
+    margin-left: -580px;
+}
   .mobile-menu-line {
-   height: 1px;
-   background: #fff;
-   width: 100%;
-   transition: transform 0.2s;
+    height: 1px;
+    background: #fff;
+    width: 100%;
+    transition: transform 0.2s;
 }
   .mobile-menu-line:nth-child(2) {
-   width: 80%;
+    width: 80%;
 }
   .navbar-button .button-text {
-   display: none;
+    display: none;
 }
   .navbar-button .button-icon {
     display: block;
@@ -2954,6 +3087,9 @@ margin-left: 489px;
     width: 100%;
     height: 80%;
 }
+.section-cta {
+  margin-top: 48px;	
+}
 .cta-form-button {
     margin-left: -635px;
 }
@@ -3013,7 +3149,7 @@ margin-left: 489px;
     margin-left: -255px;
 }
 .produce-content {
-    margin-left: -40px;
+    margin-left: -23px;
 }
 .produce-section-title {
     font-size: 50px;
@@ -3031,6 +3167,7 @@ margin-left: 489px;
     margin-bottom: 150px;
 }
 .produce-photo {
+    margin-top: -60px;
     margin-left: -37px;
 }
 .expert-photo {
@@ -3064,23 +3201,68 @@ margin-left: 489px;
 .header-title {
   font-size: 55px;
 }
+.page-header-title {
+  font-size: 60px;
+}
+.contact-phone {
+  margin-left: 250px;
+  margin-top: -30px;
+}
+.contact-map-icon {
+  margin-left: 225px;
+  margin-top: 65px;
+}
+.contact-info-address {
+  font-size: 18px;
+  margin-left: 255px;
+  margin-top: 72px;
+}
+.contact-mail-icon {
+  margin-left: -135px;
+  margin-top: 150px;
+}
+.contact-info-email {
+  font-size: 18px;
+  margin-left: -95px;
+  margin-top: 155px;
+}
+.contact-social-link-vk {
+  margin-top: 90px;
+  margin-left: -400px;
+}
+.contact-social-link-inst {
+  margin-top: 89px;
+  margin-left: -355px;
+}
+.contact-map {
+  margin-top: 105px;
+}
+.a-seporator {
+  margin-top: 30px;
+}
+.product-seporator {
+  margin-left: 192px;
+}
 }
 @media (max-width:852px) {
   .produce-text-content {
     margin-top: 0px;
 }
   .produce-photo {
-    margin-top: 50px;
     margin-left: -14px;
     width: 345px;
     height: 430px;
   }
   .types-list {
-    width: 100%;
+    margin-left: 75px;
+    width: 80%;
     padding: 0;
     list-style: none;
-    columns: 1 auto;
-  }
+    columns: 3 auto;
+}
+.type-list-item {
+  font-size: 12px;
+}
   .avtohim-types-text {
     width: 100%;
 }
@@ -3136,13 +3318,22 @@ margin-left: 489px;
     width: 100%;
     margin-bottom: 3.125rem;
   }
-  .clients-section-title {
-    font-size: 24px;
-  }
   .card-image {
     width: 90%;
-
   }
+  .types-list {
+    margin-left: 130px;
+    width: 80%;
+    padding: 0;
+    list-style: none;
+    columns: 1 auto;
+}
+  .footer-legal {
+    gap: 20px;
+}
+.footer-copyright {
+  margin-left: 0;	
+}
   .trademark-card {
     grid-template-columns: auto auto;
   }
@@ -3183,7 +3374,6 @@ margin-left: 489px;
     margin-top: -120px;
 }
 .cta-form-text {
-    max-width: 400px;
     font-size: 11px;
     margin-left: -440px;
     margin-top: -22px;
@@ -3255,7 +3445,7 @@ margin-left: 489px;
 }
 .footer-menu-wrapper:last-child {
     margin-top: 12px;
-    margin-left: -110px;
+    margin-left: -140px;
 }
 .footer-menu-link-bold {
     font-size: 16px;
@@ -3333,6 +3523,10 @@ margin-left: 489px;
    gap: 100px;
    flex-direction: column;
 }
+.footer-menu-column-2 {
+  columns: auto;
+  min-width: 43.3125rem;
+}
 .research-card {
    width: 465px;
 }
@@ -3373,16 +3567,56 @@ margin-left: 489px;
  }
  .input-group-wrapper {
   flex-direction: column;
-  margin-top: 60px;
+  margin-top: 80px;
   margin-left: -400px;
+}
+.research-card-image {
+  width: 315px;
+  height: 250px;
+}
+.contact-phone {
+  margin-left: 120px;
+  margin-top: -30px;
+}
+.contact-info {
+  margin-top: -9px;
+  margin-left: -150px;
+}
+.c-info {
+  margin-top: 1px;
+  margin-left: 1px;
+}
+.c-info {
+  margin-top: -22px;
+  margin-left: 155px;
+}
+.contact-social-link-vk {
+  margin-top: 75px;
+  margin-left: -280px;
+}
+.contact-social-link-inst {
+  margin-top: 75px;
+  margin-left: -225px;
+}
+.page-header-thumb {
+  display: none;
+}
+.product-seporator {
+  margin-left: 95px;
+}
+.product-section-title {
+  font-size: 34px;
 }
 }
 @media (max-width: 576px) {
   .container {
-   max-width: 90%;
+  max-width: 90%;
   }
   .steps {
-    gap: 30px;
+  gap: 30px;
+}
+  .cta-form-text {
+  margin-left: -422px;
 }
   .avtohim-types-text {
     width: 100%;
@@ -3394,6 +3628,9 @@ margin-left: 489px;
     position: relative;
     width: 100%;
     margin-top: 50px;
+  }
+  .product-seporator {
+    display: none;
   }
   .header-content {
     padding-top: 4rem;
@@ -3445,6 +3682,9 @@ margin-left: 489px;
 .footer-menu-column-2 {
   columns:  auto;
   min-width: 20.3125rem;
+}
+.research-slider-card {
+  max-width: 321px;
 }
 .footer-menu-link-bold {
   font-size: 12px;
@@ -3528,6 +3768,39 @@ margin-left: 489px;
 .header-title {
   font-size: 30px;
 }
+.contact-phone {
+  font-size: 25px;
+  margin-left: -5px;
+  margin-top: -30px;
+}
+.contact-info {
+  margin-top: -9px;
+  margin-left: -245px;
+}
+.c-info {
+  margin-top: -22px;
+  margin-left: 145px;
+}
+.contact-info-address {
+  font-size: 16px;
+}
+.contact-info-email {
+  font-size: 16px;
+}
+.contact-social-link-vk {
+  margin-top: 75px;
+  margin-left: -300px;
+}
+.contact-social-link-inst {
+  margin-top: 75px;
+  margin-left: -250px;
+}
+.page-header-title {
+  font-size: 40px;
+}
+.types-list {
+  margin-left: 40px;
+}
 }
 @media (max-width: 450px) {
   .button-prev {
@@ -3598,13 +3871,17 @@ margin-left: 489px;
   .button-link {
     position: absolute;
     font-size: 14.8px;
-    margin-top: 192px;
+    margin-top: 3px;
     margin-left: -1px;
   }
   .blog-buttons {
     margin-top: 14px;
     margin-left: 240px;
   }
+  .research-buttons {
+    margin-right: 45px;
+    margin-top: -10px;
+}
   .steps-buttons {
     width: 48%;
     margin-top: -12px;
@@ -3617,7 +3894,7 @@ margin-left: 489px;
     margin-left: -1px;
   }
   .section-production {
-    margin-top: -50px;
+    margin-top: 33px;
   }
   .production-section-title {
     font-size: 33.2992px;  
@@ -3664,6 +3941,9 @@ margin-left: 489px;
   margin-top: -5px;
   margin-left: -23px;
   letter-spacing: .2px;
+}
+.type-list-item {
+  font-size: 15px;
 }
 .food-title {
   font-size: 19.8992px;
@@ -3723,6 +4003,7 @@ margin-left: 489px;
 }
 .section-trademark {
   margin-top: -43px;
+  margin-bottom: 60px;
 }
 .trademark-seporator {
   width: 99px;
@@ -3770,7 +4051,7 @@ margin-left: 489px;
   width: 8.375rem;
   height: .125rem;
   margin-bottom: 30px;
-  margin-top: 9px;
+  margin-top: 10px;
   margin-left: -5px;
 }
 .founder-section-title {
@@ -3802,10 +4083,9 @@ margin-left: 489px;
 }
 .founder-link2 {
   display: flex;
-  margin-top: 20px;
+  margin-top: 18px;
   margin-left: -4px;
   gap: 9px;
-  display: flex;
   align-items: center;
   text-decoration: none;
   font-weight: 600;
@@ -3901,7 +4181,7 @@ margin-left: 489px;
   display: flex;
   flex-wrap: wrap;
   margin: -62px -3px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   cursor: pointer;
 }
 .client-logo-item {
@@ -3936,28 +4216,28 @@ margin-left: 489px;
   margin-top: 1px;
 }
 .cta-form-text {
-  font-size: 11px;
-  margin-left: -410px;
-  margin-top: -22px;
+  font-size: 13px;
+  margin-left: -359px;
+  margin-top: -16px;
 }
 .input-group-wrapper {
   flex-direction: column;
-  margin-top: 85px;
-  margin-left: -350px;
+  margin-top: 125px;
+  margin-left: -320px;
 }
 .input-group {
   margin-bottom: -30px;
 }
 .cta-form-button {
-  margin-left: -386px;
+  margin-left: -328px;
   font-size: 13px;
   height: 50px;
   width: 350px;
-  margin-top: 7px;
+  margin-top: 12px;
 }
 .section-clients {
   margin-top: 150px;
-  margin-bottom: 20px;
+  margin-bottom: 150px;
 }
 .section-blog {
   margin-top: -100px;
@@ -3972,7 +4252,7 @@ margin-left: 489px;
   margin-top: 65px;
 }
 .bg-grey {
-  height: 350px;
+  height: 390px;
 }
 .footer-wrapper, 
 .footer-legal {
@@ -3983,11 +4263,11 @@ margin-left: 489px;
 }
 .footer-copyright {
   margin-top: 6px;
-  margin-left: -146px;
+  margin-left: -70px;
 }
 .footer-policy {
   margin-top: -5px;
-  margin-left: -222px;
+  margin-left: -175px;
 }
 .footer-list {
   margin-top: 1px;
@@ -4025,12 +4305,12 @@ margin-left: 489px;
 }
 .made-in2 {
   display: block;
-  margin-left: -180px;
+  margin-left: -155px;
   margin-top: 10px;
 }
 .made-in-icon {
   margin-top: -13px;
-  margin-left: -40px;
+  margin-left: -25px;
 }
 .footer-top {
 margin-top: 0;
@@ -4055,16 +4335,16 @@ margin-top: 0;
 }
 .expert-photo {
   position: absolute;
-  left: 27px;
-  width: 350px;
-  height: 350px;
+  left: 14px;
+  width: 340px;
+  height: 340px;
   top: -35px;
 }
 .expert-section-title {
   font-family: "BebasNeueBook", sans-serif;
   font-size: 36px;
   line-height: 120%;
-  margin: -6px -200px;
+  margin: -6px -230px;
   width: 325px;
 }
 .expert-text {
@@ -4093,6 +4373,7 @@ margin-top: 0;
   width: 100%;
  }
  .types-list {
+  margin-left: 0;
   width: 100%;
   padding: 0;
   list-style: none;
@@ -4103,6 +4384,31 @@ margin-top: 0;
 }
 .header-about {
   height: 280px;
+}
+.steps-item {
+  height: 236px;
+}
+.research-card-image {
+  position: absolute;
+  left: 32px;
+  top: -6px;
+  width: 375px;
+  height: 195px;
+}
+.research-slider {
+  margin-top: -55px;
+}
+.research-slider-card {
+  min-height: 16rem;
+}
+.section-cta {
+  margin-top: 6px;
+}
+.avtohim-image {
+  width: 80%;
+}
+.expert-seporator {
+  margin-left: -230px;
 }
 }
 @media (max-width: 375px) {
@@ -4160,6 +4466,9 @@ margin-top: 0;
 .steps {
   gap: 20px;
 }
+.steps-item {
+  height: 236px;
+}
 .aerosol-title {
   font-size: 18.8992px;
   margin-top: -18px;
@@ -4183,7 +4492,7 @@ margin-top: 0;
   margin-left: -24px;
 }
 .trademark-seporator {
-  margin-top: -52px;
+  margin-top: -50px;
 }
 .trademark-title {
   font-size: 37px;
@@ -4261,10 +4570,9 @@ margin-top: 0;
 }
 .cta-form-text {
   font-size: 14px;
-  margin-left: -341px;
-  margin-top: -24px;
+  margin-left: -343px;
+  margin-top: -22px;
   line-height: 130%;
-  width: 287px;
 }
 .input-group {
   margin-bottom: 5px;
@@ -4306,8 +4614,54 @@ margin-top: 0;
   margin-left: -102px;
   margin-top: 30px;
 }
+.contact-phone {
+  font-size: 26px;
+  margin-left: 16px;
+  margin-top: -70px;
+}
+.contact-info {
+  margin-top: -65px;
+  margin-left: 150px;
+}
+.c-info {
+  margin-top: 40px;
+  margin-left: -145px;
+}
 .footer-info {
   margin-top: 55px;
+}
+.contact-map-icon {
+  margin-left: -165px;
+  margin-top: 0px;
+}
+.contact-info-address {
+  font-size: 15px;
+  margin-left: -117px;
+  margin-top: 0px;
+}
+.contact-mail-icon {
+  margin-top: -43px;
+  margin-left: -165px;
+}
+.contact-info-email {
+  font-size: 15px;
+  margin-top: -40px;
+  margin-left: -119px;
+}
+.contact-social-link-vk {
+  margin-left: -240px;
+  margin-top: 51px;
+}
+.contact-social-link-inst {
+  margin-left: -188px;
+  margin-top: 50px;
+}
+.contact-map {
+  width: 100%;
+  max-height: 600px;
+  margin-top: 30px;
+  margin-left: -3px;
+  margin-bottom: 60px;
 }
 .footer-map-icon {
   margin-top: 107px;
@@ -4423,8 +4777,8 @@ margin-top: 0;
 }
 .made-in2 {
   display: block;
-  margin-left: -172px;
-  margin-top: 10px;
+  margin-left: -171px;
+  margin-top: 13px;
 }
 .made-in-icon {
   margin-top: -13px;
@@ -4594,7 +4948,7 @@ margin-top: 0;
 }
 .founder-photo {
   position: relative;
-  margin-top: -12px;
+  margin-top: -15px;
 }
 .f-photo {
   margin-top: -62px;
@@ -4633,16 +4987,7 @@ margin-top: 0;
 .research-slider {
   margin-top: -25px;
 }
-.research-slider-card {
-  min-height: 16rem;
-}
-.research-card-image {
-  position: absolute;
-  left: 32px;
-  top: -6px;
-  width: 345px;
-  height: 195px;
-}
+
 .research-buttons {
   margin-right: 14px;
   margin-top: 0px;
@@ -4665,6 +5010,7 @@ margin-top: 0;
   margin-top: 0;
 }
 .types-list{
+  margin-left: 0;
   columns: 1;
   width: 350px;
 }
@@ -4713,6 +5059,8 @@ margin-top: 0;
   margin: -6px 9px;
 }
 .product-seporator {
+  margin-left: 1px;
+  display: block;
   margin-top: 20px;
 }
 .product-content {
@@ -4759,7 +5107,7 @@ margin-top: 0;
   margin-left: -4px;
 }
 .page-header-title {
-  font-size: 46px;
+  font-size: 35px;
   margin-top: 18px;
   margin-left: -2px;
   margin-bottom: 20px;
@@ -4769,7 +5117,7 @@ margin-top: 0;
   height: 300px;
 }
 .breadcrumbs {
-  margin-top: 31px;
+  margin-top: -10px;
 }
 .breadcrumbs-link {
   text-decoration: none;
@@ -4837,5 +5185,29 @@ margin-top: 0;
   width: 100px;
   height: 2px;
   margin-left: -4px;
+}
+.header-features {
+  margin-top: 41px;
+}
+.error-section {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.error-footer {
+  margin-top: 0px;
+}
+.navbar-button .button-icon {
+  display: block;
+  fill: #ffffff;
+  margin-top: -9px;
+}
+.politics-confidential-text {
+  font-size: 14px;
+  max-width: 345px;
+}
+.blog-expert-image {
+  width: 100%;
+  margin-left: 9px;
+  margin-top: -29px;
 }
 }

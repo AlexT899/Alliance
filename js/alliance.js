@@ -123,7 +123,7 @@ const swiperAbout = new Swiper(".about-slider",{
 const swiperBlog = new Swiper(".blog-slider", {
   speed: 400,
   slidesPerView: 5,
-  spaceBetween: 10,
+  spaceBetween: 30,
   navigation: {
     nextEl: ".blog-button-next",
     prevEl: ".blog-button-prev", 
@@ -152,7 +152,6 @@ const swiperBlog = new Swiper(".blog-slider", {
 const swiperResearch = new Swiper(".research-slider", {
   speed: 400,
   slidesPerView: 1,
-  spaceBetween:10,
   navigation: {
     nextEl: ".blog-button-next",
     prevEl: ".blog-button-prev", 
@@ -164,6 +163,7 @@ const swiperResearch = new Swiper(".research-slider", {
     },
     // when window width is >= 480px
     768: {
+      spaceBetween: 10,
       slidesPerView: 1,
     },
     // when window width is >= 640px

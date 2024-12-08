@@ -48,7 +48,7 @@
     </div> 
    <div class="research-slider-footer">	
      <!-- If we need navigation buttons -->
-     <div class="blog-buttons  primary-buttons-wrapper research-buttons">
+     <div class="primary-buttons-wrapper research-buttons">
       <div class="blog-button-prev primary-button-prev">
         <svg class="research-icon-prev" width="36" height="24">
         <use href="img/sprite.svg#arrow-prev"></use>

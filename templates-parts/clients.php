@@ -3,7 +3,7 @@
       <div class="clients-seporator"></div><!-- /.trademark-seporator -->
           <div class="clients-wrapper">
             <div class="clients-content">
-              <h2 class="clients-section-title ">Производим аэрозольную продукцию для разных сфер</h2>
+              <h2 class="clients-section-title ">Производим аэрозольную продукцию для разных сфер </h2>
               <ul class="clients-list">
                 <li class="clients-list-item item1">
                   <svg width="30" height="30" class="client-list-icon">
@@ -119,7 +119,7 @@
                 </picture>
               
               </a>
-              <a href="#" class="client-logo-item">
+              <a href="#" class="client-logo-item ">
                 <picture>
                  <source type="image/webp" srcset="img/client.webp">
                  <source type="image/jpeg" srcset="img/client.png">

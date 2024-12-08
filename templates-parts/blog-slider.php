@@ -21,8 +21,8 @@
   <source type="image/jpeg" srcset="img/blog-image2.jpg">
   <img class="blog-card-image" src="img/blog-image2.jpg" alt="founder">
 </picture>
-      <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-      <p class="blog-card-text ">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
+      <h3 class="blog-card-title blog-card-title2">Сложно сказать, почему жизнь прекрасна</h3>
+      <p class="blog-card-text blog-card-text2 ">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
     </a>
     <a href="/blog-more.php" class="swiper-slide blog-card">
     <picture >
