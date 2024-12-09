@@ -194,8 +194,8 @@
         <p class="modal-text alert-text">
         Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
-        <a class="alert-link" href="/index.php">
-        <button type="submit" class="modal-button modal-form-button thanks-button">Вернуться на главную</button>
+        <a class="alert-link" href="/index.php"
+         type="submit" class="modal-button modal-form-button thanks-button">Вернуться на главную
         </a>
       </div>
      </div>

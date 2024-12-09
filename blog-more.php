@@ -90,7 +90,7 @@ include_once('header-page.php');?>
       <p class="expert-steps-text">Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций.</p>
     </li>
     <li class="experts-steps-item">
-      <span class="expert-step-num">02.</span>
+      <span class="expert-step-num expert-step-num2">02.</span>
       <p class="expert-steps-text expert-steps-text2">С другой стороны консультация с широким активом позволяет оценить значение форм развития.</p>
     </li>
     <li class="experts-steps-item">
