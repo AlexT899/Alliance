@@ -2495,14 +2495,24 @@ margin-left: 489px;
   margin-left: 14px;
 }
 .error-button {
- margin-left: 806px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #fff;
+  background: #3A71D1;
+  padding: 1.5625rem 3.75rem;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+ margin-left: 810px;
  margin-top: 13px;
 }
 .error-button:hover {
   background: #5F92EC;
 }
 .error-footer {
-  margin-top: 138px;
+  margin-top: 149px;
 }
 @media (hover: hover) {
   .navbar-button:hover {
@@ -4668,7 +4678,7 @@ margin-top: 0;
   margin-left: -19px;
 }
 .input {
-  width: 344px;
+  width: 320px;
   height: 62px;
 }
 .input-group-label {

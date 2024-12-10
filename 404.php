@@ -139,11 +139,10 @@
   <!-- /.navbar -->
    <section class="error-section">
    <div class="error">
-   <img src="img/404 (1).jpg" alt="404" class="error-num">
+   <img src="img/404(1).jpg" alt="404" class="error-num">
    <h3 class="page-not-found">Страница не найдена</h3>
    <p class="error-page">Мы не смогли найти страницу с таким адресом, попробуйте <br> перейти на главную или напишите нам.</p>
-   <a href="/index.php">
-   <button class="button header-button error-button">Вернуться на главную</button>
+   <a href="/index.php" class="error-button">Вернуться на главную
    </a>
    </div>
    </section>

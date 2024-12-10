@@ -50,7 +50,7 @@ include_once('header-page.php');?>
       </div><!-- /.container-->
       <div class="container">
       <div class="contact-map">
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af6ed07aab8ca235b6e574b7c5ee93269f6ab73dc3fb39b505d1fb142098571dc&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+        <script  async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af6ed07aab8ca235b6e574b7c5ee93269f6ab73dc3fb39b505d1fb142098571dc&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
         </div>
       </div>
     </footer>

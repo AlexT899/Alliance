@@ -54,9 +54,10 @@ include_once('header-page.php');?>
         <img class="blog-expert-image" src="img/blog-expert.png" alt="blog-expert">
       </picture>
   <ul class="blog-expert-list">
-  <h1 class="blog-expert-list-title">
-  Равным образом консультация с широким активом:
-  </h1>
+  <li>
+    <p class="blog-expert-list-title">
+    Равным образом консультация с широким активом:</p>
+  </li>
     <li class="blog-expert-line">
     <svg class="blog-expert-icon"  width="16" height="3">
               <use href="img/sprite.svg#blog-line"></use>

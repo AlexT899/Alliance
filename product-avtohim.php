@@ -138,7 +138,7 @@
   </nav>
   <!-- /.navbar -->
   <header class="page-header page-header-bg-grey ">
-      <img src="img/bg-avto-him.png" alt="" class="page-header-thumb" />
+      <img src="img/bg-avto-him.png" alt="" class="page-header-thumb" >
       <div class="container">
         <div class="seporator seporator-blog"></div>
         <h1 class="page-header-title">Автомобильная химия</h1>
