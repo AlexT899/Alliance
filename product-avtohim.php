@@ -47,7 +47,7 @@
         </ul>
       </li>
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">Новости</a>
+        <a href="/404.php" class="mobile-menu-link">Новости</a>
       </li>
       <li class="mobile-menu-nav-item">
         <a href="/contacts.php" class="mobile-menu-link">Контакты</a>

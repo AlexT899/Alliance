@@ -5220,6 +5220,29 @@ margin-top: 0;
   margin-left: 75px;
   margin-top: 5px;
 }
+.modal-dialog {
+  height: 580px;
+  width: 345px;
+}
+.alert-link {
+  width: 295px;
+}
+.alert-dialog {
+  min-height: 575px;
+}
+.alert-image {
+  width: 305px;
+  height: 250.42px;
+}
+.alert-title {
+  font-size: 40px;
+}
+.return-home {
+  width: 290px;
+  margin-left: -16px;
+  margin-top: -16px;
+  font-size: 15px;
+}
 .error-page-button {
   margin-left: -50px;
 }
