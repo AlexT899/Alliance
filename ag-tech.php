@@ -31,7 +31,7 @@ include_once('header-page.php');?>
       <div class="product-seporator ag-tech-seporator"></div><!-- /.trademark-seporator -->
           <div class="product-wrapper">
             <div class="product-content ag-tech-content">
-              <h2 class="product-section-title ag-tech-title">Генеральный дистрибьютор премиальной
+              <h2 class="ag-tech-title">Генеральный дистрибьютор премиальной
               автохимии</h2>
               <div class="product-text-content">
                 <p class="product-text ag-tech-text">
