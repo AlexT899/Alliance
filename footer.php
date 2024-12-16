@@ -90,13 +90,13 @@
         </div>
         <!-- /.mobile-info -->
         <div class="footer-social">
-          <a href="https://vk.com/feed" class="footer-social-link-vk">
-            <svg class="network-icon"  width="24" height="24">
+          <a href="https://vk.com/feed" class="footer-social-link">
+            <svg class="footer-social-icon"  width="24" height="24">
               <use href="img/sprite.svg#vk"></use>
              </svg>
         </a>
-          <a href="https://www.instagram.com/" class="footer-social-link-inst">
-            <svg class="network-icon"  width="24" height="24">
+          <a href="https://www.instagram.com/" class="footer-social-link">
+            <svg class="footer-social-icon"  width="24" height="24">
               <use href="img/sprite.svg#inst"></use>
              </svg>
           </a>
@@ -109,24 +109,24 @@
       <div class="container">
         <div class="footer-bottom">
           <div class="footer-menu-wrapper">
-            <h2 class="footer-menu-title menu-title">Контрактное производство</h2>
+            <h2 class="footer-menu-title">Контрактное производство</h2>
             <ul class="footer-menu-list footer-menu-column-2">
-              <li class="footer-menu-item footer-list1">
+              <li class="footer-menu-item">
                 <a href="/product-avtohim.php" class="footer-menu-link">Автомобильная химия</a>
               </li>
-              <li class="footer-menu-item footer-list2">
+              <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link">Бытовая химия</a>
               </li>
-              <li class="footer-menu-item footer-list3">
+              <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link">Дезинфицирующие средства</a>
               </li>
-              <li class="footer-menu-item footer-list4">
+              <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link">Пищевые аэрозоли</a>
               </li>
-              <li class="footer-menu-item footer-list5">
+              <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link">Косметическая продукция</a>
               </li>
-              <li class="footer-menu-item footer-list6">
+              <li class="footer-menu-item">
                 <a href="#" class="footer-menu-link">Краски аэрозольные</a>
               </li>
             </ul>
@@ -147,13 +147,13 @@
           <div class="footer-menu-wrapper wrapper">
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="/about.php" class="footer-menu-link footer-menu-link-bold">О компании</a>
+                <a href="/about.php" class="footer-menu-link footer-menu-link-bold bold-item1">О компании</a>
               </li>
               <li class="footer-menu-item">
-                <a href="/404.php" class="footer-menu-link footer-menu-link-bold">Новости</a>
+                <a href="/404.php" class="footer-menu-link footer-menu-link-bold bold-item2">Новости</a>
               </li>
               <li class="footer-menu-item">
-                <a href="/contacts.php" class="footer-menu-link footer-menu-link-bold">Контакты</a>
+                <a href="/contacts.php" class="footer-menu-link footer-menu-link-bold bold-item2">Контакты</a>
               </li>
             </ul>
           </div>
