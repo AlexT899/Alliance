@@ -1371,7 +1371,7 @@ body {
   padding-bottom: 3.125rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  
 }
 .footer-logo {
   width: 200px;
@@ -1404,14 +1404,27 @@ body {
   text-decoration-line: underline;
   color: #292D33;
   margin-top: -10px;
-  margin-left: 93px;
+  margin-left:160px;
 }
 .footer-map-icon {
   margin-top: -6px;
-  margin-left: 22px;
+  margin-left: 83px;
 }
 .footer-info-address {
   margin-top: -8px;
+}
+.footer-mail-icon {
+  margin-top: -8px;
+  margin-left: 52px;
+}
+.footer-info-email {
+  margin-top: -8px;
+}
+.footer-social {
+  margin-top: -9px;
+}
+.footer-social-icon-vk {
+  margin-left: 74px;
 }
 .footer-social-link {
   text-decoration: none;
