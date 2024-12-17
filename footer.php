@@ -153,7 +153,7 @@
                 <a href="/404.php" class="footer-menu-link footer-menu-link-bold bold-item2">Новости</a>
               </li>
               <li class="footer-menu-item">
-                <a href="/contacts.php" class="footer-menu-link footer-menu-link-bold bold-item2">Контакты</a>
+                <a href="/contacts.php" class="footer-menu-link footer-menu-link-bold bold-item3">Контакты</a>
               </li>
             </ul>
           </div>
