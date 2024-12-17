@@ -91,12 +91,12 @@
         <!-- /.mobile-info -->
         <div class="footer-social">
           <a href="https://vk.com/feed" class="footer-social-link">
-            <svg class="footer-social-icon"  width="24" height="24">
+            <svg class="footer-social-icon-vk"  width="24" height="24">
               <use href="img/sprite.svg#vk"></use>
              </svg>
         </a>
           <a href="https://www.instagram.com/" class="footer-social-link">
-            <svg class="footer-social-icon"  width="24" height="24">
+            <svg class="footer-social-icon-inst"  width="24" height="24">
               <use href="img/sprite.svg#inst"></use>
              </svg>
           </a>
